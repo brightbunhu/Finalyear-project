@@ -1,0 +1,7 @@
+task,model,n_holdout,pos,roc_auc,brier
+T1_usd_y1,full_history,83,9,0.521,0.0805
+T1_usd_y1,recent_24m,83,9,0.5495,0.1108
+T1_usd_y1,platt_recalibrated,83,9,0.521,0.0915
+T2_usd_y2,full_history,245,36,0.8727,0.084
+T2_usd_y2,recent_24m,245,36,0.7679,0.0986
+T2_usd_y2,platt_recalibrated,245,36,0.8727,0.0921

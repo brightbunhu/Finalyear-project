@@ -1,0 +1,336 @@
+market_id,market,admin1,admin2,latitude,longitude,district_geo,admin1_geo,xy_present,district_name_match
+708,Mbare,Harare,Harare,-17.86,31.04,Harare,Harare,True,True
+709,Dombotombo,Mashonaland East,Marondera Urban,-18.19,31.55,Marondera Urban,Mashonaland East,True,True
+710,Murombedzi,,,,,,,False,False
+711,Murehwa,Mashonaland East,Murehwa,-17.64,31.78,Murehwa,Mashonaland East,True,True
+712,Chikonohono,Mashonaland West,Chinhoyi,-17.37,30.2,Chinhoyi,Mashonaland West,True,True
+713,Bindura,Mashonaland Central,Bindura Urban,-17.3,31.33,Bindura Urban,Mashonaland Central,True,True
+715,Renkini Bus Terminus,,,,,,,False,False
+716,Nkayi Growth Point,Matabeleland North,Nkayi,-19.0,28.9,Nkayi,Matabeleland North,True,True
+717,Gwanda town,Matabeleland South,Gwanda Urban,-20.94,29.01,Gwanda Urban,Matabeleland South,True,True
+718,Binga,Matabeleland North,Binga,-17.62,27.34,Binga,Matabeleland North,True,True
+719,Mucheke,,,,,,,False,False
+720,Chivi Growth Point,Masvingo,Chivi,-20.31,30.51,Chivi,Masvingo,True,True
+721,Tshovani,,,,,,,False,False
+722,Mandava,,,,,,,False,False
+723,Kombai,,,,,,,False,False
+724,Sakubva,Manicaland,Mutare Urban,-19.0,32.64,Mutare Urban,Manicaland,True,True
+725,Nyanyadzi,Manicaland,Chimanimani,-19.77,32.42,Chimanimani,Manicaland,True,True
+726,Checheche,Manicaland,Chipinge Urban,-20.19,32.62,Chipinge Urban,Manicaland,True,True
+727,Murambinda,Manicaland,Buhera,-19.33,31.43,Buhera,Manicaland,True,True
+728,Mupandawana,Masvingo,Gutu,-19.65,31.17,Gutu,Masvingo,True,True
+729,Dulibadzimu Market,,,,,,,False,False
+730,Hwange Town Bus Terminus,Matabeleland North,Hwange Urban,-18.37,26.48,Hwange Urban,Matabeleland North,True,True
+731,Mount Darwin,Mashonaland Central,Mount Darwin,-16.78,31.58,Mount Darwin,Mashonaland Central,True,True
+1905,Rutenga,Masvingo,Mwenezi,-21.23,30.73,Mwenezi,Masvingo,True,True
+2136,Madlambudzi,Matabeleland South,Bulilima,-20.15,27.45,Bulilima,Matabeleland South,True,True
+2137,Khame,Matabeleland South,Bulilima,-19.96,27.45,Bulilima,Matabeleland South,True,True
+2138,Dombodema,Matabeleland South,Bulilima,-20.41,27.63,Bulilima,Matabeleland South,True,True
+2139,Gampo,Matabeleland South,Bulilima,-20.05,27.66,Bulilima,Matabeleland South,True,True
+2140,Tjankwa,Matabeleland South,Bulilima,-20.38,27.89,Bulilima,Matabeleland South,True,True
+2141,Somnene,Matabeleland South,Bulilima,-20.15,27.94,Bulilima,Matabeleland South,True,True
+2142,Nyele,Matabeleland South,Bulilima,-20.28,27.69,Bulilima,Matabeleland South,True,True
+2143,Negande,Mashonaland West,Kariba,-17.13,28.36,Kariba,Mashonaland West,True,True
+2144,Marula,Matabeleland South,Mangwe,-20.48,28.09,Mangwe,Matabeleland South,True,True
+2145,Plumtree town,,,,,,,False,False
+2146,Ingwizi,Matabeleland South,Mangwe,-21.12,27.87,Mangwe,Matabeleland South,True,True
+2147,Brunaperg,Matabeleland South,Mangwe,-21.16,28.03,Mangwe,Matabeleland South,True,True
+2148,Mambale,Matabeleland South,Mangwe,-21.48,28.28,Mangwe,Matabeleland South,True,True
+2149,Maninji,Matabeleland South,Mangwe,-21.4,28.07,Mangwe,Matabeleland South,True,True
+2150,Empandeni,Matabeleland South,Mangwe,-20.69,27.9,Mangwe,Matabeleland South,True,True
+2151,Maphisa,Matabeleland South,Matobo,-21.07,28.45,Matobo,Matabeleland South,True,True
+2152,Kezi,Matabeleland South,Matobo,-20.91,28.47,Matobo,Matabeleland South,True,True
+2153,Tshelanyemba,Matabeleland South,Matobo,-21.35,28.49,Matobo,Matabeleland South,True,True
+2154,Saint Joseph,Matabeleland South,Matobo,-21.25,28.27,Matobo,Matabeleland South,True,True
+2155,Bazha,Matabeleland South,Matobo,-20.6,28.33,Matobo,Matabeleland South,True,True
+2156,Homestead,Matabeleland South,Matobo,-21.25,28.55,Matobo,Matabeleland South,True,True
+2157,Ntunjambili,Matabeleland South,Matobo,-20.44,28.69,Matobo,Matabeleland South,True,True
+2158,Neshuro,Masvingo,Mwenezi,-20.95,30.65,Mwenezi,Masvingo,True,True
+2159,Sarahuro,Masvingo,Mwenezi,-20.99,30.55,Mwenezi,Masvingo,True,True
+2160,Kotwa,Mashonaland East,Mudzi,-16.99,32.67,Mudzi,Mashonaland East,True,True
+2161,Makaha,Mashonaland East,Mudzi,-17.28,32.62,Mudzi,Mashonaland East,True,True
+2162,Suswe,Mashonaland East,Mudzi,-17.16,32.39,Mudzi,Mashonaland East,True,True
+2163,Nyamapanda,Mashonaland East,Mudzi,-16.96,32.86,Mudzi,Mashonaland East,True,True
+2164,Nyamande,Mashonaland East,Mudzi,-17.22,32.72,Mudzi,Mashonaland East,True,True
+2165,Katoto,Mashonaland East,Mudzi,-17.0,32.28,Mudzi,Mashonaland East,True,True
+2166,Nyamukoho,Mashonaland East,Mudzi,-17.07,32.32,Mudzi,Mashonaland East,True,True
+2167,Mushumbi,Mashonaland Central,Mbire,-16.17,30.56,Mbire,Mashonaland Central,True,True
+2168,Mahuwe,Mashonaland Central,Mbire,-16.38,30.74,Mbire,Mashonaland Central,True,True
+2169,Chikafa,Mashonaland Central,Mbire,-15.97,30.38,Mbire,Mashonaland Central,True,True
+2171,Rushinga Growth Point,Mashonaland Central,Rushinga,-16.64,32.02,Rushinga,Mashonaland Central,True,True
+2172,Chimhanda Business Centre,Mashonaland Central,Rushinga,-16.63,32.14,Rushinga,Mashonaland Central,True,True
+2173,Mary Mount Business Center,Mashonaland Central,Rushinga,-16.65,32.42,Rushinga,Mashonaland Central,True,True
+2174,Chomutukutu Business Centre,Mashonaland Central,Rushinga,-16.54,32.2,Rushinga,Mashonaland Central,True,True
+2175,Nyamatikiti Business Centre,Mashonaland Central,Rushinga,-16.74,32.11,Rushinga,Mashonaland Central,True,True
+2176,Nyatsato Business center,Mashonaland Central,Rushinga,-16.57,32.37,Rushinga,Mashonaland Central,True,True
+2177,Kasenzi Business Center,Mashonaland Central,Rushinga,-16.59,32.25,Rushinga,Mashonaland Central,True,True
+2178,Siphepha,Matabeleland North,Tsholotsho,-19.29,27.66,Tsholotsho,Matabeleland North,True,True
+2179,Tsholotsho Business Centre,Matabeleland North,Tsholotsho,-19.77,27.75,Tsholotsho,Matabeleland North,True,True
+2180,Nemane,Matabeleland North,Tsholotsho,-19.8,27.53,Tsholotsho,Matabeleland North,True,True
+2181,Zvishavane Urban,Midlands,Zvishavane Urban,-20.32,30.05,Zvishavane Urban,Midlands,True,True
+2182,Mabasa,Midlands,Zvishavane,-20.15,30.09,Zvishavane,Midlands,True,True
+2183,Matenda,Midlands,Zvishavane,-20.0,30.06,Zvishavane,Midlands,True,True
+2184,Mutambi,Midlands,Zvishavane,-20.47,30.28,Zvishavane,Midlands,True,True
+2185,Vhugwi,Midlands,Zvishavane,-20.48,30.18,Zvishavane,Midlands,True,True
+2187,Murowa,Midlands,Zvishavane,-20.53,30.38,Zvishavane,Midlands,True,True
+2188,Negande business centre,Mashonaland West,Kariba,-17.19,28.19,Kariba,Mashonaland West,True,True
+2189,Kasvisva,Mashonaland West,Kariba,-17.23,28.5,Kariba,Mashonaland West,True,True
+2190,Mola,Mashonaland West,Kariba,-16.93,28.3,Kariba,Mashonaland West,True,True
+5065,Tongogara Refugee Camp 2,Manicaland,Chipinge,-20.35,32.31,Chipinge,Manicaland,True,True
+5357,Chasvingo,Matabeleland South,Beitbridge,-22.05,30.5,Beitbridge,Matabeleland South,True,True
+5361,Lutumba,Matabeleland South,Beitbridge,-22.09,30.12,Beitbridge,Matabeleland South,True,True
+5364,Zezani,Matabeleland South,Beitbridge,-21.61,29.5,Beitbridge,Matabeleland South,True,True
+5365,Chamnangana,Matabeleland South,Beitbridge,-21.61,29.61,Beitbridge,Matabeleland South,True,True
+5369,Beitbridge Urban,Matabeleland South,Beitbridge Urban,-22.2,29.99,Beitbridge Urban,Matabeleland South,True,True
+5376,Old Mashoko,Masvingo,Bikita,-20.49,31.77,Bikita,Masvingo,True,True
+5377,Chiremwaremwa,Masvingo,Bikita,-20.47,31.86,Bikita,Masvingo,True,True
+5378,Mukore,Masvingo,Bikita,-20.13,31.84,Bikita,Masvingo,True,True
+5379,Nyika Growth Point,Masvingo,Bikita,-20.01,31.6,Bikita,Masvingo,True,True
+5381,Chigumisirwa,Masvingo,Bikita,-20.09,31.85,Bikita,Masvingo,True,True
+5382,Boora,Masvingo,Bikita,-20.06,31.88,Bikita,Masvingo,True,True
+5383,Mamutse,Masvingo,Bikita,-19.98,31.89,Bikita,Masvingo,True,True
+5384,Chikuku,Masvingo,Bikita,-19.99,31.86,Bikita,Masvingo,True,True
+5385,Chirorwe Business Centre (Gutu),Masvingo,Gutu,-19.53,31.54,Gutu,Masvingo,True,True
+5386,Murwira,Masvingo,Bikita,-19.91,31.65,Bikita,Masvingo,True,True
+5387,Mbuyanehanda (Zaka),Masvingo,Zaka,-20.29,31.44,Zaka,Masvingo,True,True
+5388,Murambinda Growth Point,Manicaland,Buhera,-19.27,31.66,Buhera,Manicaland,True,True
+5389,Bulawayo,Bulawayo,Bulawayo,-20.16,28.58,Bulawayo,Bulawayo,True,True
+5394,Njube,Bulawayo,Bulawayo,-20.13,28.53,Bulawayo,Bulawayo,True,True
+5396,Old Pumula Shops,Bulawayo,Bulawayo,-20.14,28.47,Bulawayo,Bulawayo,True,True
+5397,Sizinda Shopping Centre,Bulawayo,Bulawayo,-20.17,28.55,Bulawayo,Bulawayo,True,True
+5398,Tshabalala Basic Shopping Centre,Bulawayo,Bulawayo,-20.17,28.53,Bulawayo,Bulawayo,True,True
+5399,Chegutu Urban,Mashonaland West,Chegutu Urban,-18.13,30.15,Chegutu Urban,Mashonaland West,True,True
+5401,Chinhoyi CBD,Mashonaland West,Chinhoyi,-17.36,30.19,Chinhoyi,Mashonaland West,True,True
+5403,Bhundu Shopping Centre,Masvingo,Bikita,-19.96,32.25,Bikita,Masvingo,True,True
+5404,Magarage,Masvingo,Chiredzi,-21.12,31.41,Chiredzi,Masvingo,True,True
+5409,Madamombe,Midlands,Zvishavane,-20.49,30.32,Zvishavane,Midlands,True,True
+5413,Mhandamabwe,Masvingo,Chivi,-20.15,30.36,Chivi,Masvingo,True,True
+5418,Takavarasha,Masvingo,Chivi,-20.33,30.55,Chivi,Masvingo,True,True
+5420,Maringire Business Centre,Masvingo,Chivi,-20.61,30.71,Chivi,Masvingo,True,True
+5422,Munyuki,Harare,Harare,-17.89,30.99,Harare,Harare,True,True
+5423,Domboramwari,Harare,Epworth,-17.91,31.15,Epworth,Harare,True,True
+5424,Nembudzia,Midlands,Gokwe North,-17.71,29.01,Gokwe North,Midlands,True,True
+5425,Gokwe,Midlands,Gokwe South Urban,-18.22,28.95,Gokwe South Urban,Midlands,True,True
+5431,Damofalls Park,Mashonaland East,Goromonzi,-17.85,31.23,Goromonzi,Mashonaland East,True,True
+5434,Sogwala,Midlands,Gweru Urban,-19.45,29.75,Gweru Urban,Midlands,True,True
+5437,Mangwande Business Centre,Midlands,Gweru,-19.31,29.45,Gweru,Midlands,True,True
+5438,Sikombingo,Midlands,Gweru,-19.22,29.36,Gweru,Midlands,True,True
+5440,Gambiza Business Centre,Midlands,Gweru,-19.27,29.92,Gweru,Midlands,True,True
+5441,Muchakata Business Centre,Midlands,Gweru,-19.24,29.95,Gweru,Midlands,True,True
+5442,Gweru Urban,Midlands,Gweru Urban,-19.45,29.82,Gweru Urban,Midlands,True,True
+5445,Mtapa,Midlands,Gweru Urban,-19.44,29.8,Gweru Urban,Midlands,True,True
+5446,Ascot Shopping Centre,Midlands,Gweru Urban,-19.44,29.79,Gweru Urban,Midlands,True,True
+5449,Queensdale,Harare,Harare,-17.86,31.09,Harare,Harare,True,True
+5450,Kamunhu Shopping Centre,Harare,Harare,-17.84,31.2,Harare,Harare,True,True
+5451,Chadcombe,Harare,Harare,-17.86,31.1,Harare,Harare,True,True
+5452,Mutsvubvu Shops,Harare,Harare Rural,-17.94,30.99,Harare Rural,Harare,True,True
+5461,Hwange,Matabeleland North,Hwange,-18.22,26.3,Hwange,Matabeleland North,True,True
+5463,Cindrella,Matabeleland North,Hwange Urban,-18.34,26.47,Hwange Urban,Matabeleland North,True,True
+5464,Madumabisa,Matabeleland North,Hwange Urban,-18.36,26.43,Hwange Urban,Matabeleland North,True,True
+5465,Makwika,Matabeleland North,Hwange Urban,-18.42,26.41,Hwange Urban,Matabeleland North,True,True
+5467,Silalatshani,Matabeleland South,Insiza,-20.78,29.32,Insiza,Matabeleland South,True,True
+5468,Mbondweni,Matabeleland South,Insiza,-20.7,29.48,Insiza,Matabeleland South,True,True
+5469,Avoca,Matabeleland South,Insiza,-20.82,29.51,Insiza,Matabeleland South,True,True
+5473,Filabusi,Matabeleland South,Insiza,-20.54,29.28,Insiza,Matabeleland South,True,True
+5474,Skuta,Matabeleland South,Insiza,-20.46,29.61,Insiza,Matabeleland South,True,True
+5475,Nyamhunga,Matabeleland North,Binga,-17.47,28.08,Binga,Matabeleland North,True,True
+5476,Jumbo,Mashonaland West,Kariba Urban,-16.51,28.85,Kariba,Mashonaland West,True,False
+5477,Mahombekombe,Mashonaland West,Kariba Urban,-16.53,28.78,Kariba,Mashonaland West,True,False
+5479,Charara,Mashonaland West,Kariba,-16.55,28.96,Kariba,Mashonaland West,True,True
+5480,Mbizo 1,Midlands,Kwekwe Urban,-18.91,29.84,Kwekwe Urban,Midlands,True,True
+5482,Mbizo Extension,Midlands,Kwekwe,-18.54,29.5,Kwekwe,Midlands,True,True
+5483,Mbizo 2,Midlands,Kwekwe Urban,-18.91,29.84,Kwekwe Urban,Midlands,True,True
+5484,Mbizo 4,Midlands,Kwekwe Urban,-18.9,29.85,Kwekwe Urban,Midlands,True,True
+5485,Kwekwe Industries,Midlands,Kwekwe Urban,-18.92,29.81,Kwekwe Urban,Midlands,True,True
+5486,Amaveni,Midlands,Kwekwe Urban,-18.93,29.78,Kwekwe Urban,Midlands,True,True
+5487,Kwekwe CBD,Midlands,Kwekwe Urban,-18.93,29.81,Kwekwe Urban,Midlands,True,True
+5489,Madabe,Matabeleland South,Mangwe,-20.77,27.75,Mangwe,Matabeleland South,True,True
+5490,Tshitshi,Matabeleland South,Mangwe,-20.98,27.75,Mangwe,Matabeleland South,True,True
+5492,Ngwanyana,Matabeleland South,Mangwe,-20.9,27.74,Mangwe,Matabeleland South,True,True
+5493,Mkgampo (Makhubu),Matabeleland South,Mangwe,-21.18,27.93,Mangwe,Matabeleland South,True,True
+5498,Mashava,Masvingo,Masvingo,-20.04,30.47,Masvingo,Masvingo,True,True
+5501,Mutare CBD,Manicaland,Mutare Urban,-18.98,32.67,Mutare Urban,Manicaland,True,True
+5504,Muzarabani Centre,Mashonaland Central,Centenary,-16.39,30.99,Centenary/ Muzarabani,Mashonaland Central,True,False
+5505,Hoya,Mashonaland Central,Centenary,-16.35,31.3,Centenary/ Muzarabani,Mashonaland Central,True,False
+5507,Torwood 1,Midlands,Redcliff,-19.01,29.72,Redcliff,Midlands,True,True
+5508,Redcliff,Midlands,Redcliff,-19.03,29.78,Redcliff,Midlands,True,True
+5509,Rutendo 5,Midlands,Redcliff,-19.0,29.79,Redcliff,Midlands,True,True
+5511,Rusape,Manicaland,Rusape,-18.52,32.14,Makoni,Manicaland,True,False
+5514,Masasa Industrial,Harare,Harare,-17.85,31.14,Harare,Harare,True,True
+5516,Jimila,Matabeleland North,Tsholotsho,-19.49,27.74,Tsholotsho,Matabeleland North,True,True
+5517,Mapane,Matabeleland North,Tsholotsho,-19.82,27.44,Tsholotsho,Matabeleland North,True,True
+5518,Ngqoya,Matabeleland North,Tsholotsho,-19.82,27.8,Tsholotsho,Matabeleland North,True,True
+5519,Bubude,Matabeleland North,Tsholotsho,-20.01,27.81,Tsholotsho,Matabeleland North,True,True
+5520,Mutata,Mashonaland East,Uzumba Maramba Pfungwe,-16.89,32.18,Uzumba Maramba Pfungwe,Mashonaland East,True,True
+5521,Sowa,Mashonaland East,Uzumba Maramba Pfungwe,-16.97,32.05,Uzumba Maramba Pfungwe,Mashonaland East,True,True
+5522,Mutawatawa Growth Point,Mashonaland Central,Shamva,-17.12,31.59,Shamva,Mashonaland Central,True,True
+5524,Katiyo,Mashonaland East,Mudzi,-17.22,32.84,Mudzi,Mashonaland East,True,True
+5525,Nhakiwa,Mashonaland East,Uzumba Maramba Pfungwe,-17.37,31.8,Uzumba Maramba Pfungwe,Mashonaland East,True,True
+5531,Chipinge Urban,Manicaland,Chipinge Urban,-20.2,32.62,Chipinge Urban,Manicaland,True,True
+5532,Chiredzi Urban,Masvingo,Chiredzi Urban,-21.05,31.67,Chiredzi Urban,Masvingo,True,True
+5534,Epworth,Harare,Harare,-17.82,31.06,Harare,Harare,True,True
+5537,Harare South,Harare,Harare,-17.82,31.06,Harare,Harare,True,True
+5538,Marondera CBD,Mashonaland East,Marondera Urban,-18.19,31.55,Marondera Urban,Mashonaland East,True,True
+5539,Masvingo Urban,Masvingo,Masvingo Urban,-20.07,30.84,Masvingo Urban,Masvingo,True,True
+5540,Norton,Mashonaland West,Norton,-17.87,30.69,Norton,Mashonaland West,True,True
+5544,Torwood 2,Midlands,Redcliff,-19.01,29.73,Redcliff,Midlands,True,True
+5545,Rutendo 6,Midlands,Redcliff,-19.0,29.79,Redcliff,Midlands,True,True
+5546,Ruwa,Mashonaland East,Ruwa,-17.9,31.23,Ruwa,Mashonaland East,True,True
+5552,Victoria Falls,Matabeleland North,Victoria Falls,-17.93,25.83,Victoria Falls,Matabeleland North,True,True
+5553,Siabuwa,Matabeleland North,Binga,-17.47,28.05,Binga,Matabeleland North,True,True
+5554,Manjolo,Matabeleland North,Binga,-17.26,28.0,Binga,Matabeleland North,True,True
+5558,Lubimbi,Matabeleland North,Binga,-18.07,27.83,Binga,Matabeleland North,True,True
+5559,Gezani,Masvingo,Chiredzi,-22.1,31.15,Chiredzi,Masvingo,True,True
+5560,Rupangwana,Masvingo,Chiredzi,-21.0,32.15,Chiredzi,Masvingo,True,True
+5561,Chibwedziva,Masvingo,Chiredzi,-21.35,31.78,Chiredzi,Masvingo,True,True
+5562,Chikombedzi,Masvingo,Chiredzi,-21.68,31.32,Chiredzi,Masvingo,True,True
+5563,Muhlanguleni,Masvingo,Chiredzi,-21.53,31.49,Chiredzi,Masvingo,True,True
+5569,Chingele,Masvingo,Chiredzi,-21.41,31.62,Chiredzi,Masvingo,True,True
+5570,Muteyo,Masvingo,Chiredzi,-20.93,32.11,Chiredzi,Masvingo,True,True
+5571,Mayovhe Business Centre,Mashonaland West,Kariba,-17.02,28.19,Kariba,Mashonaland West,True,True
+5572,Siakobvu Business Centre,Mashonaland West,Kariba,-17.13,28.36,Kariba,Mashonaland West,True,True
+5573,Chidyzmugwamu,Mashonaland West,Kariba,-17.13,28.36,Kariba,Mashonaland West,True,True
+5574,Beula,Matabeleland South,Matobo,-21.49,28.39,Matobo,Matabeleland South,True,True
+5575,Mabonyane,Matabeleland South,Matobo,-21.04,28.23,Matobo,Matabeleland South,True,True
+5576,Madwaleni,Matabeleland South,Matobo,-20.96,28.43,Matobo,Matabeleland South,True,True
+5577,Angwa,Mashonaland Central,Mbire,-16.06,30.18,Mbire,Mashonaland Central,True,True
+5578,Chidodo,Mashonaland Central,Mbire,-16.12,31.03,Mbire,Mashonaland Central,True,True
+5579,Mazambara (Makonde),Mashonaland West,Makonde,-16.52,30.33,Makonde,Mashonaland West,True,True
+5580,Monozi,Mashonaland Central,Mbire,-16.24,30.43,Mbire,Mashonaland Central,True,True
+5581,Dinhe,Masvingo,Mwenezi,-21.2,30.52,Mwenezi,Masvingo,True,True
+5582,Lundi,Masvingo,Mwenezi,-20.9,30.78,Mwenezi,Masvingo,True,True
+5583,Maranda,Masvingo,Mwenezi,-21.15,30.32,Mwenezi,Masvingo,True,True
+5584,Marimuka,Masvingo,Mwenezi,-21.2,30.15,Mwenezi,Masvingo,True,True
+5585,Matibi,Masvingo,Mwenezi,-20.75,30.48,Mwenezi,Masvingo,True,True
+5586,Rutenga (Mwenenzi),Masvingo,Mwenezi,-21.24,30.73,Mwenezi,Masvingo,True,True
+5587,Sovelele,Masvingo,Mwenezi,-21.0,29.93,Mwenezi,Masvingo,True,True
+5588,Gwelutshena,Midlands,Kwekwe,-18.98,29.05,Kwekwe,Midlands,True,True
+5589,Sebhumane,Matabeleland North,Nkayi,-18.67,28.46,Nkayi,Matabeleland North,True,True
+5590,Mpumelelo,Matabeleland North,Nkayi,-19.07,28.77,Nkayi,Matabeleland North,True,True
+5591,Gonye,Matabeleland North,Nkayi,-18.9,28.75,Nkayi,Matabeleland North,True,True
+5592,Dharu,Midlands,Zvishavane,-19.96,30.05,Zvishavane,Midlands,True,True
+5593,Masarasara,Midlands,Zvishavane,-20.22,29.9,Zvishavane,Midlands,True,True
+5594,Mbilashaba,Midlands,Zvishavane,-20.21,29.97,Zvishavane,Midlands,True,True
+5595,Sasula,Midlands,Zvishavane,-20.19,30.05,Zvishavane,Midlands,True,True
+5686,Mutema,Manicaland,Chipinge,-20.14,32.37,Chipinge,Manicaland,True,True
+5687,Chako,Manicaland,Chipinge,-20.43,32.68,Chipinge,Manicaland,True,True
+5692,Chusumbanje,Manicaland,Chipinge,-20.77,32.23,Chipinge,Manicaland,True,True
+5694,Esigodini,Matabeleland South,Umzingwane,-20.29,28.94,Umzingwane,Matabeleland South,True,True
+5701,Lupane Northeast,Matabeleland North,Lupane,-18.84,28.12,Lupane,Matabeleland North,True,True
+5702,Jotsholo,Matabeleland North,Lupane,-18.72,27.56,Lupane,Matabeleland North,True,True
+5703,Lupane North,Matabeleland North,Lupane,-18.45,27.87,Lupane,Matabeleland North,True,True
+5704,Mutare Rural Market 1,Manicaland,Mutare,-19.26,32.26,Mutare,Manicaland,True,True
+5707,Mutare Rural Market 4,Manicaland,Mutare,-19.27,32.58,Mutare,Manicaland,True,True
+5708,Mutare Rural Market 5,Manicaland,Mutare,-19.05,32.22,Mutare,Manicaland,True,True
+5709,Odzi,Manicaland,Mutare,-18.96,32.39,Mutare,Manicaland,True,True
+5730,Kamutsenzere,Mashonaland Central,Mount Darwin,-16.38,31.79,Mount Darwin,Mashonaland Central,True,True
+5732,Chawanda,Mashonaland Central,Mount Darwin,-16.62,31.68,Mount Darwin,Mashonaland Central,True,True
+5733,Karanda,Mashonaland Central,Mount Darwin,-16.66,31.83,Mount Darwin,Mashonaland Central,True,True
+5734,Pachanza,Mashonaland Central,Mount Darwin,-16.47,31.75,Mount Darwin,Mashonaland Central,True,True
+5735,Mukumbura,Mashonaland Central,Mount Darwin,-16.2,31.69,Mount Darwin,Mashonaland Central,True,True
+5738,Vokola,Matabeleland South,Insiza,-20.86,29.55,Insiza,Matabeleland South,True,True
+5739,Lukosi,Matabeleland North,Hwange,-18.38,26.63,Hwange,Matabeleland North,True,True
+5741,Cross Dete,Matabeleland North,Hwange,-18.49,26.92,Hwange,Matabeleland North,True,True
+5742,Makwa,Matabeleland North,Hwange,-18.09,26.67,Hwange,Matabeleland North,True,True
+5743,Jambesi,Matabeleland North,Hwange,-18.05,26.23,Hwange,Matabeleland North,True,True
+5744,Ndlovu,Matabeleland North,Hwange,-18.11,25.98,Hwange,Matabeleland North,True,True
+5746,Gunde Shops,Midlands,Gweru,-19.18,29.99,Gweru,Midlands,True,True
+5747,Makepesi Business Centre,Midlands,Gweru,-19.38,29.57,Gweru,Midlands,True,True
+5750,Mahenye,Manicaland,Chipinge,-21.25,32.39,Chipinge,Manicaland,True,True
+5760,Formal,Manicaland,Chipinge,-20.2,32.83,Chipinge,Manicaland,True,True
+5761,Tanganda,Manicaland,Chipinge,-20.12,32.45,Chipinge,Manicaland,True,True
+5762,Chambara,Mashonaland East,Chikomba,-18.86,30.99,Chikomba,Mashonaland East,True,True
+5766,Zvichemo,Mashonaland East,Chikomba,-19.05,31.35,Chikomba,Mashonaland East,True,True
+5767,Sadza,Mashonaland East,Chikomba,-18.9,31.45,Chikomba,Mashonaland East,True,True
+5768,Nharira,Mashonaland East,Chikomba,-19.07,31.16,Chikomba,Mashonaland East,True,True
+5770,Balmain,Masvingo,Masvingo,-20.05,30.49,Masvingo,Masvingo,True,True
+5772,Musvovi,Masvingo,Masvingo,-20.7,31.07,Masvingo,Masvingo,True,True
+5774,Guwa Business Centre,Masvingo,Masvingo,-20.63,31.06,Masvingo,Masvingo,True,True
+5775,Nemamwa,Masvingo,Masvingo,-20.27,30.91,Masvingo,Masvingo,True,True
+5777,Daitai,Masvingo,Masvingo,-20.34,31.09,Masvingo,Masvingo,True,True
+5779,Sipambi,Masvingo,Masvingo,-20.33,30.73,Masvingo,Masvingo,True,True
+5780,Zimuto Siding,Masvingo,Masvingo,-19.86,30.86,Masvingo,Masvingo,True,True
+5781,Chinhove,Masvingo,Masvingo,-20.42,31.09,Masvingo,Masvingo,True,True
+8800,Matenda B/C,Midlands,Zvishavane,-20.01,30.01,Zvishavane,Midlands,True,True
+8802,Charleswood,Manicaland,Chimanimani,-19.79,32.95,Chimanimani,Manicaland,True,True
+8807,Bezel Bridge,Manicaland,Mutare,-19.22,32.45,Mutare,Manicaland,True,True
+8808,Makunike,Manicaland,Mutasa,-18.54,32.77,Mutasa,Manicaland,True,True
+8809,Masere,Manicaland,Mutasa,-18.6,32.78,Mutasa,Manicaland,True,True
+8810,Hauna,Manicaland,Mutasa,-18.5,32.85,Mutasa,Manicaland,True,True
+8811,Sedze,Manicaland,Nyanga,-18.14,32.74,Nyanga,Manicaland,True,True
+8812,Manjoro,Manicaland,Nyanga,-18.19,32.7,Nyanga,Manicaland,True,True
+8813,Nyarumburwe Shopping Centre,Manicaland,Nyanga,-18.22,32.64,Nyanga,Manicaland,True,True
+8814,Mandizha,Mashonaland Central,Bindura,-17.42,31.36,Bindura,Mashonaland Central,True,True
+8817,Zvevahera,Mashonaland Central,Bindura,-17.41,31.37,Bindura,Mashonaland Central,True,True
+8818,Matepatepa,Mashonaland Central,Bindura,-17.22,31.16,Bindura,Mashonaland Central,True,True
+8819,Bare,Mashonaland Central,Mazowe,-16.88,31.13,Mazowe,Mashonaland Central,True,True
+8820,Gweshe,Mashonaland Central,Mazowe,-17.2,31.05,Mazowe,Mashonaland Central,True,True
+8821,Glendale,Mashonaland Central,Mazowe,-17.36,31.06,Mazowe,Mashonaland Central,True,True
+8823,Chakonda,Mashonaland Central,Shamva,-17.15,31.59,Shamva,Mashonaland Central,True,True
+8824,Wadzanai,Mashonaland Central,Shamva,-17.3,31.57,Shamva,Mashonaland Central,True,True
+8825,Madziva Town,Mashonaland Central,Shamva,-16.98,31.49,Shamva,Mashonaland Central,True,True
+8826,Fells,Mashonaland East,Hwedza,-18.48,31.49,Hwedza,Mashonaland East,True,True
+8827,Dendenyore,Mashonaland East,Hwedza,-18.68,31.69,Hwedza,Mashonaland East,True,True
+8828,Hwedza Centre,Mashonaland East,Hwedza,-18.63,31.57,Hwedza,Mashonaland East,True,True
+8829,Muteke,Mashonaland East,Marondera,-18.1,31.55,Marondera,Mashonaland East,True,True
+8830,Mushangwe,Mashonaland East,Marondera,-18.32,31.6,Marondera,Mashonaland East,True,True
+8831,Mahusekwa,Mashonaland East,Marondera,-18.31,31.19,Marondera,Mashonaland East,True,True
+8832,Masomera,Mashonaland East,Marondera,-18.38,31.78,Marondera,Mashonaland East,True,True
+8835,Makosa,Mashonaland East,Mutoko,-17.28,32.47,Mutoko,Mashonaland East,True,True
+8836,Mutoko Centre,Mashonaland East,Mutoko,-17.4,32.23,Mutoko,Mashonaland East,True,True
+8837,Cornerstore,Mashonaland East,Mutoko,-17.56,31.99,Mutoko,Mashonaland East,True,True
+8840,Gilstone,Mashonaland East,Seke,-18.0,30.88,Seke,Mashonaland East,True,True
+8841,Kafura,Mashonaland East,Uzumba Maramba Pfungwe,-16.86,32.26,Uzumba Maramba Pfungwe,Mashonaland East,True,True
+8842,Mashambanhaka,Mashonaland East,Uzumba Maramba Pfungwe,-17.29,31.82,Uzumba Maramba Pfungwe,Mashonaland East,True,True
+8843,Manyika Business Centre,Mashonaland East,Uzumba Maramba Pfungwe,-17.35,31.9,Uzumba Maramba Pfungwe,Mashonaland East,True,True
+8845,Alaska,Mashonaland West,Chinhoyi,-17.37,30.07,Chinhoyi,Mashonaland West,True,True
+8846,Kadoma Urban,Mashonaland West,Kadoma Urban,-18.34,29.92,Kadoma Urban,Mashonaland West,True,True
+8847,Makande,Mashonaland West,Kariba,-16.91,28.99,Kariba,Mashonaland West,True,True
+8848,Mhangura,Mashonaland West,Makonde,-17.01,30.17,Makonde,Mashonaland West,True,True
+8849,Chizinga Township,Mashonaland West,Mhondoro-Ngezi,-18.63,30.69,Mhondoro-Ngezi,Mashonaland West,True,True
+8850,Turf,Mashonaland West,Mhondoro-Ngezi,-18.68,30.28,Mhondoro-Ngezi,Mashonaland West,True,True
+8851,Murombedzi Growth Point,Mashonaland West,Zvimba,-17.71,30.2,Zvimba,Mashonaland West,True,True
+8852,Raffingora,Mashonaland West,Zvimba,-17.04,30.44,Zvimba,Mashonaland West,True,True
+8859,Nerupiri,Masvingo,Gutu,-19.85,31.03,Gutu,Masvingo,True,True
+8860,Basera,Masvingo,Gutu,-19.67,31.6,Gutu,Masvingo,True,True
+8862,Muchakata,Masvingo,Masvingo,-20.42,30.93,Masvingo,Masvingo,True,True
+8863,Chitima,Masvingo,Masvingo,-20.53,30.9,Masvingo,Masvingo,True,True
+8864,Gumbo Business Centre,Masvingo,Zaka,-20.22,31.4,Zaka,Masvingo,True,True
+8865,Jerera,Masvingo,Zaka,-20.41,31.45,Zaka,Masvingo,True,True
+8870,Bubi Business Center,Matabeleland North,Bubi,-19.68,28.84,Bubi,Matabeleland North,True,True
+8872,Chisuma,Matabeleland North,Hwange,-18.01,25.95,Hwange,Matabeleland North,True,True
+8873,St Luke's,Matabeleland North,Lupane,-19.11,27.97,Lupane,Matabeleland North,True,True
+8875,Pumula,Matabeleland North,Tsholotsho,-19.65,27.06,Tsholotsho,Matabeleland North,True,True
+8877,Ntabazinduna,Matabeleland North,Umguza,-20.01,28.84,Umguza,Matabeleland North,True,True
+8880,Ticehurst,Matabeleland North,Umguza,-19.82,28.47,Umguza,Matabeleland North,True,True
+8881,Nyamandlovu Centre,Matabeleland North,Umguza,-19.86,28.27,Umguza,Matabeleland North,True,True
+8882,Chasvingo Business Centre,Matabeleland South,Beitbridge,-22.03,30.55,Beitbridge,Matabeleland South,True,True
+8883,Stanmore,Matabeleland South,Gwanda,-20.66,29.03,Gwanda,Matabeleland South,True,True
+8884,Selonga Business Centre,Matabeleland South,Gwanda,-21.38,29.17,Gwanda,Matabeleland South,True,True
+8885,Manama Business Centre,Matabeleland South,Gwanda,-21.55,29.01,Gwanda,Matabeleland South,True,True
+8888,Chaka,Midlands,Chirumhanzu,-19.52,30.7,Chirumhanzu,Midlands,True,True
+8889,Chengwena,Midlands,Chirumhanzu,-19.82,30.54,Chirumhanzu,Midlands,True,True
+8891,Chitekete,Midlands,Gokwe North,-17.59,28.37,Gokwe North,Midlands,True,True
+8892,Gwebo,Midlands,Gokwe North,-17.87,28.86,Gokwe North,Midlands,True,True
+8894,Kana Mission,Midlands,Gokwe South,-18.56,28.52,Nkayi,Matabeleland North,True,False
+8897,Zhombe,Midlands,Kwekwe,-18.68,29.35,Kwekwe,Midlands,True,True
+8898,Dendera Business Centre,Midlands,Kwekwe,-18.68,29.09,Kwekwe,Midlands,True,True
+8899,Chiguhune,Midlands,Kwekwe,-18.85,29.06,Kwekwe,Midlands,True,True
+8900,Mberengwa,Midlands,Mberengwa,-20.48,29.9,Mberengwa,Midlands,True,True
+8901,Mataga Growth Point,Midlands,Mberengwa,-20.85,30.19,Mberengwa,Midlands,True,True
+8902,Masase Business Centre,Midlands,Mberengwa,-20.98,29.67,Mberengwa,Midlands,True,True
+8903,Jeka Business Centre,Midlands,Mberengwa,-20.85,29.93,Mberengwa,Midlands,True,True
+8904,Mukandapi,Midlands,Shurugwi,-19.87,30.19,Shurugwi,Midlands,True,True
+8905,Chachacha,Midlands,Shurugwi,-19.79,30.12,Shurugwi,Midlands,True,True
+8906,Tongogara Business Centre,Midlands,Shurugwi,-19.72,30.21,Shurugwi,Midlands,True,True
+8907,Goneso,Mashonaland East,Hwedza,-18.91,31.86,Hwedza,Mashonaland East,True,True
+8913,Murewa Highway Vendors,Mashonaland East,Murehwa,-17.66,31.79,Murehwa,Mashonaland East,True,True
+10121,Gaza,Manicaland,Buhera,-19.16,31.74,Buhera,Manicaland,True,True
+10123,Birchnough Bridge,Manicaland,Buhera,-19.95,32.31,Buhera,Manicaland,True,True
+10124,Hope fountain,Matabeleland North,Umguza,-20.14,28.42,Bulawayo,Bulawayo,True,False
+10247,Mbuya Nehanda,Midlands,Mberengwa,-20.5,29.93,Mberengwa,Midlands,True,True
+10251,Chizinga,Mashonaland West,Mhondoro-Ngezi,-18.54,29.99,Mhondoro-Ngezi,Mashonaland West,True,True
+10589,Maboleni,Midlands,Gweru,-19.3,29.43,Gweru,Midlands,True,True
+10595,Dotito,Mashonaland Central,Mount Darwin,-16.57,31.58,Mount Darwin,Mashonaland Central,True,True
+10599,Bradley,Mashonaland Central,Shamva,-17.01,31.46,Shamva,Mashonaland Central,True,True
+10600,Madziwa mine,Mashonaland Central,Shamva,-17.06,31.65,Shamva,Mashonaland Central,True,True

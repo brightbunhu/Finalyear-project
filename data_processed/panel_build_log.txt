@@ -1,0 +1,12 @@
+Phase 3 panel build
+raw price rows: 28168
+after food-category filter: 20530 (removed 7638 non-food/other)
+after price>0: 20530
+markets: 335  with geo district: 327  name match to reported admin2: 320  no coords: 8
+markets without a geo district: ['Dulibadzimu Market', 'Kombai', 'Mandava', 'Mucheke', 'Murombedzi', 'Plumtree town', 'Renkini Bus Terminus', 'Tshovani']
+monthly cells (market-commodity-currency-month): 20530
+population districts available: 91
+[nominal_within_currency] rows=20530  y1 labelable=5429 pos=819 (15.09%)  y2 labelable=12635 pos=2028 (16.05%)
+   saved panel_nominal_within_currency.parquet
+[usdprice] rows=20530  y1 labelable=5429 pos=812 (14.96%)  y2 labelable=12635 pos=2060 (16.30%)
+   saved panel_usdprice.parquet

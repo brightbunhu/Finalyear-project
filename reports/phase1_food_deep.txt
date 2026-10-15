@@ -1,0 +1,124 @@
+====================================================================================================
+WFP FOOD PRICES DEEP DIVE
+rows=28168  date range 2010-01-15 .. 2026-05-15
+rows by year:
+date
+2010     207
+2011     240
+2012     251
+2013     254
+2014     320
+2015     258
+2016     411
+2017    1160
+2018     927
+2019     181
+2020    8551
+2021    5621
+2022    2509
+2023    4686
+2024    1785
+2025     611
+2026     196
+
+currency counts: {'ZWL': 22153, 'USD': 6015}
+currency by year (rows):
+currency   USD   ZWL
+date                
+2010       207     0
+2011       240     0
+2012       251     0
+2013       254     0
+2014       320     0
+2015       258     0
+2016       411     0
+2017      1160     0
+2018       927     0
+2019         0   181
+2020         0  8551
+2021         7  5614
+2022         0  2509
+2023        72  4614
+2024      1214   571
+2025       498   113
+2026       196     0
+
+priceflag: {'aggregate': 21989, 'actual': 6179}
+pricetype: {'Retail': 28168}
+unit: {'KG': 20279, 'L': 3064, '100 ML': 2511, '250 G': 2314}
+category: {'non-food': 7638, 'cereals and tubers': 7463, 'miscellaneous food': 5248, 'oil and fats': 2900, 'meat, fish and eggs': 2485, 'pulses and nuts': 2434}
+n commodities: 31 n markets: 336 n market_id: 336
+
+admin1 missing rows: 907  admin2 missing rows: 907
+markets with missing admin2: 8
+
+price describe:
+count     28168.000000
+mean       1771.830553
+std        7584.120143
+min           0.130000
+25%          18.100000
+50%         101.470000
+75%         594.355000
+max      266553.880000
+nonpositive price rows: 0
+usdprice describe:
+count    28168.000000
+mean         0.879121
+std          7.341570
+min          0.000015
+25%          0.001400
+50%          0.004600
+75%          0.150000
+max        275.000000
+
+full-row duplicates: 0
+key duplicates (date,market,commodity,currency,unit,pricetype,priceflag): 0
+key group sizes distribution:
+1    28168
+
+commodity x unit combinations:
+commodity                        unit  
+Beans                            KG         463
+Beans (sugar)                    KG        1685
+Beans (sugar, biofortified)      KG          24
+Cowpeas                          KG          80
+Fish (kapenta)                   KG        2485
+Fuel (diesel)                    L           82
+Fuel (petrol-gasoline)           L           82
+Groundnuts (shelled)             KG         180
+Handwash soap                    250 G     2314
+Laundry soap                     KG        2649
+Maize                            KG        1909
+Maize (yellow, biofortified)     KG           6
+Maize flour (white)              KG           4
+Maize meal                       KG        1806
+Maize meal (white, first grade)  KG           4
+Maize meal (white, fortified)    KG          63
+Maize meal (white, roller)       KG         457
+Millet                           KG         135
+Millet (biofortified)            KG           3
+Oil (vegetable)                  L         2800
+Oil (vegetable, fortified)       L          100
+Rice                             KG        2653
+Salt                             KG        2408
+Sorghum                          KG         279
+Sorghum (biofortified)           KG           1
+Soybeans                         KG           2
+Sugar                            KG        2737
+Sugar (white, fortified)         KG         103
+Toothpaste                       100 ML    2511
+Wheat                            KG          64
+Wheat flour (fortified)          KG          79
+
+market_id present in markets file?
+food markets: 336 market ref: 486
+food market_ids not in market ref: 0
+lat/lon missing in food: 907
+
+day-of-month distribution of date: {15: 28168}
+====================================================================================================
+CHIRPS Zimbabwe extract test
+zimbabwe-shaped slice dims: {'time': 548, 'latitude': 160, 'longitude': 170}
+slice 2020-01-01: shape=(160, 170) nan_frac=0.000 min=17.50 max=324.63 mean=134.44
+global time coverage: 1981-01-01T00:00:00.000000000 -> 2026-08-01T00:00:00.000000000

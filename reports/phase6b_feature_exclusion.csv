@@ -1,0 +1,7 @@
+task,variant,roc_auc,n,delta
+T1_usd_y1,full,0.5886,83.0,
+T1_usd_y1,drop_rainfall,0.5105,,-0.0781
+T1_usd_y1,drop_peer,0.515,,-0.0736
+T2_usd_y2,full,0.8456,245.0,
+T2_usd_y2,drop_rainfall,0.8469,,0.0013
+T2_usd_y2,drop_peer,0.6811,,-0.1645

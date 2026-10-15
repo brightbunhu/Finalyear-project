@@ -1,0 +1,21 @@
+task,group,n,pos,roc_auc
+T1_usd_y1,cereals and tubers,1342,207,0.5651
+T1_usd_y1,"meat, fish and eggs",597,71,0.5483
+T1_usd_y1,miscellaneous food,1313,191,0.5953
+T1_usd_y1,oil and fats,586,101,0.5769
+T1_usd_y1,pulses and nuts,535,84,0.6672
+T2_usd_y2,cereals and tubers,3466,478,0.7875
+T2_usd_y2,"meat, fish and eggs",1570,407,0.7288
+T2_usd_y2,miscellaneous food,3366,617,0.8091
+T2_usd_y2,oil and fats,1703,214,0.8555
+T2_usd_y2,pulses and nuts,1320,227,0.8086
+T3_nominal_y1,cereals and tubers,1342,212,0.5767
+T3_nominal_y1,"meat, fish and eggs",597,69,0.551
+T3_nominal_y1,miscellaneous food,1313,190,0.587
+T3_nominal_y1,oil and fats,586,103,0.5667
+T3_nominal_y1,pulses and nuts,535,87,0.6678
+T4_nominal_y2,cereals and tubers,3466,465,0.7855
+T4_nominal_y2,"meat, fish and eggs",1570,388,0.7366
+T4_nominal_y2,miscellaneous food,3366,608,0.8093
+T4_nominal_y2,oil and fats,1703,226,0.8434
+T4_nominal_y2,pulses and nuts,1320,224,0.8076

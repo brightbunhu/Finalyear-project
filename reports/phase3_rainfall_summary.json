@@ -1,0 +1,15 @@
+{
+  "zw_window_dims": [
+    160,
+    180
+  ],
+  "pixels_inside_district_pct": 46.6,
+  "districts": 90,
+  "months": 548,
+  "time_min": "1981-01-01",
+  "time_max": "2026-08-01",
+  "climatology_period": [
+    "1981-01-01",
+    "2015-12-31"
+  ]
+}

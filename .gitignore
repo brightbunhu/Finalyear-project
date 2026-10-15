@@ -1,0 +1,35 @@
+# Data and large files
+raw/*.nc
+raw/*.grib
+raw/*.tif
+raw/yr.nc
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Backups
+*.bak
+*.backup
+*~
+
+# Misc
+scratch/
+tmp/
+temp/

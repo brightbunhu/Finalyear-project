@@ -1,0 +1,5 @@
+task,variant,roc_auc,delta,n_rows_with_return_gt1
+T1_usd_y1,none,0.5886,,
+T1_usd_y1,winsor_1_99,0.5901,0.0015,1191.0
+T3_nominal_y1,none,0.6321,,
+T3_nominal_y1,winsor_1_99,0.6156,-0.0165,1182.0

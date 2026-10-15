@@ -1,0 +1,49 @@
+RAW rows: 28168
+categories: ['cereals and tubers', 'oil and fats', 'pulses and nuts', 'miscellaneous food', 'non-food', 'meat, fish and eggs']
+food-only rows: 20530
+food & price>0 rows: 20530
+MARKET-COMMODITY-CURRENCY-MONTH cells: 20530
+currency split of cells: {'ZWL': 15050, 'USD': 5480}
+
+number of series (market,commodity,currency): 3029
+series length describe:
+count    3029.000000
+mean        6.777814
+std         8.218842
+min         1.000000
+25%         2.000000
+50%         4.000000
+75%         9.000000
+max        87.000000
+  series with >= 6 months: 1192
+  series with >= 12 months: 536
+  series with >= 24 months: 108
+  series with >= 36 months: 38
+  series with >= 60 months: 10
+  series with >= 120 months: 0
+
+months covered overall: 184 2010-01-01 -> 2026-05-01
+cells per year:
+month
+2010     207
+2011     240
+2012     251
+2013     254
+2014     320
+2015     258
+2016     411
+2017    1160
+2018     927
+2019      94
+2020    5585
+2021    3926
+2022    1763
+2023    3292
+2024    1281
+2025     417
+2026     144
+
+rows with an immediately-following monthly observation (labelable): 7624 (37.1%)
+
+commodities: ['Beans', 'Beans (sugar)', 'Beans (sugar, biofortified)', 'Cowpeas', 'Fish (kapenta)', 'Groundnuts (shelled)', 'Maize', 'Maize (yellow, biofortified)', 'Maize flour (white)', 'Maize meal', 'Maize meal (white, first grade)', 'Maize meal (white, fortified)', 'Maize meal (white, roller)', 'Millet', 'Millet (biofortified)', 'Oil (vegetable)', 'Oil (vegetable, fortified)', 'Rice', 'Salt', 'Sorghum', 'Sorghum (biofortified)', 'Soybeans', 'Sugar', 'Sugar (white, fortified)', 'Wheat', 'Wheat flour (fortified)']
+units: ['KG', 'L']

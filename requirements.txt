@@ -1,0 +1,21 @@
+pandas==3.0.3
+numpy==2.4.6
+scikit-learn==1.9.1
+xgboost==3.4.1
+scipy==1.18.1
+streamlit==1.58.0
+matplotlib==3.11.2
+xarray==2026.7.0
+netCDF4==1.7.4
+geopandas==1.1.4
+rasterio==1.5.1
+shapely==2.1.2
+pyarrow==24.0.0
+PyYAML==6.0.3
+optuna==5.0.0
+python-docx==1.2.0
+joblib==1.6.0
+
+# Optional: only needed for scripts/capture_dashboard.py (dashboard screenshots)
+# playwright==1.64.0
+

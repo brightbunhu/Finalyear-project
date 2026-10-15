@@ -1,0 +1,165 @@
+====================================================================================================
+WORKBOOK: DataDetails.xls (0.68 MB)
+sheets: ['MAIN', 'www.enterprisesurveys.org', 'Details for Sector and Location', 'Details for Informal Sector ES']
+--- sheet 'MAIN': (28, 2)
+    columns: ['Unnamed: 0', 'Unnamed: 1']
+   Unnamed: 0                        Unnamed: 1
+0         NaN                Enterprise Surveys
+1         NaN  http://www.enterprisesurveys.org
+2         NaN                               NaN
+3         NaN                  Questions? Email
+4         NaN   enterprisesurveys@worldbank.org
+--- sheet 'www.enterprisesurveys.org': (564, 28)
+    columns: ['Data Details', 'Unnamed: 1', 'Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4', 'Unnamed: 5', 'Unnamed: 6', 'Unnamed: 7', 'Number of Firms', 'Unnamed: 9', 'Unnamed: 10', 'Unnamed: 11', 'Unnamed: 12', 'Unnamed: 13', 'Unnamed: 14', 'Unnamed: 15', 'Unnamed: 16', 'Unnamed: 17', 'Unnamed: 18', 'Unnamed: 19', 'Unnamed: 20', 'Unnamed: 21', 'Unnamed: 22', 'Notes', 'Unnamed: 24', 'Unnamed: 25', 'Unnamed: 26', 'Unnamed: 27']
+  Data Details Unnamed: 1   Unnamed: 2  Unnamed: 3                      Unnamed: 4             Unnamed: 5   Unnamed: 6 Unnamed: 7 Number of Firms                    Unnamed: 9                 Unnamed: 10               Unnamed: 11                   Unnamed: 12    Unnamed: 13 Unnamed: 14     Unnamed: 15 Unnamed: 16                     Unnamed: 17         Unnamed: 18    Unnamed: 19        Unnamed: 20    Unnamed: 21                                      Unnamed: 22                                                         Notes              Unnamed: 24          Unnamed: 25                                                 Unnamed: 26  Unnamed: 27
+0          NaN        NaN          NaN         NaN                             NaN                    NaN          NaN        NaN             NaN  By Stratification Variables*                         NaN                       NaN                           NaN            NaN         NaN             NaN         NaN                             NaN           Ownership            NaN  Trade Orientation            NaN                                              NaN                                                           NaN                      NaN                  NaN                                                         NaN          NaN
+1      Country       Year  Fiscal Year  n3_l2_year  Number of sub-national regions  Duration of Fieldwork  Methodology     Region           Total        Small (5-19 employees)  Medium \n(20-99 employees)  Large\n (100+ employees)  Size information unavailable  Manufacturing      Retail  Other Services      Others  Sector information unavailable  Domestically-owned  Foreign-owned          Exporters  Non-exporters  Firms without female participation in ownership                                       Country Specific Topics  Other Surveys Available           Panel Data                                          Panel Data Details  Other Notes
+2  Afghanistan       2008    2007/2008   2005/2006                               6      10/2008 - 12/2008       Global     MENAAP             535                           347                         146                        42                             0            124         105             305           1                             NaN                 507             23                 12            519                                              519  Entrepreneurship, ICT, Trade, Access to Land, Finance, Labor                 Informal            2005-2008                                             both waves (58)          NaN
+3  Afghanistan       2014    2012/2013   2010/2011                               5        5/2013 - 7/2014       Global     MENAAP             410                           256                         123                        31                             0            139          64             207         NaN                             NaN                 410              0                 13            358                                              399                          Infrastructure, Gender, Trade, Labor                   Gender       2008-2010-2014  all waves (38), last two waves (24), first two waves (283)          NaN
+4  Afghanistan       2025    2024/2025   2022/2023                               4         7/2025-01/2026       Global     MENAAP             426                           221                         168                        37                             0            NaN         NaN             NaN         NaN                             426                 421              5                 32            394                                              345                                                        Mining                 Informal  2005-2008-2014-2025                                                         NaN          NaN
+--- sheet 'Details for Sector and Location': (564, 61)
+    columns: ['Data Details', 'Unnamed: 1', 'Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4', 'Unnamed: 5', 'Unnamed: 6', 'Unnamed: 7', 'Unnamed: 8', 'Levels of Location Strata', 'Levels of Business Sector Strata', 'ISIC Rev. 3.1 (http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=17)', 'Unnamed: 12', 'Unnamed: 13', 'Unnamed: 14', 'Unnamed: 15', 'Unnamed: 16', 'Unnamed: 17', 'Unnamed: 18', 'Unnamed: 19', 'Unnamed: 20', 'Unnamed: 21', 'Unnamed: 22', 'Unnamed: 23', 'Unnamed: 24', 'Unnamed: 25', 'Unnamed: 26', 'Unnamed: 27', 'Unnamed: 28', 'Unnamed: 29', 'Unnamed: 30', 'Unnamed: 31', 'Unnamed: 32', 'Unnamed: 33', 'Unnamed: 34', 'Unnamed: 35', 'Unnamed: 36', 'Unnamed: 37', 'Unnamed: 38', 'Unnamed: 39', 'Unnamed: 40', 'Unnamed: 41', 'Unnamed: 42', 'Unnamed: 43', 'Unnamed: 44', 'Unnamed: 45', 'Unnamed: 46', 'Unnamed: 47', 'Unnamed: 48', 'Unnamed: 49', 'Unnamed: 50', 'Unnamed: 51', 'Unnamed: 52', 'Unnamed: 53', 'Unnamed: 54', 'Unnamed: 55', 'Unnamed: 56', 'Unnamed: 57', 'Unnamed: 58', 'Unnamed: 59', 'Unnamed: 60']
+  Data Details Unnamed: 1   Unnamed: 2  Unnamed: 3                      Unnamed: 4             Unnamed: 5   Unnamed: 6 Unnamed: 7 Unnamed: 8                                                                                                            Levels of Location Strata                                             Levels of Business Sector Strata ISIC Rev. 3.1 (http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=17)   Unnamed: 12                 Unnamed: 13                 Unnamed: 14                 Unnamed: 15                 Unnamed: 16                 Unnamed: 17                 Unnamed: 18                 Unnamed: 19                 Unnamed: 20                 Unnamed: 21   Unnamed: 22                 Unnamed: 23                 Unnamed: 24                 Unnamed: 25                 Unnamed: 26                 Unnamed: 27                 Unnamed: 28                 Unnamed: 29                 Unnamed: 30                 Unnamed: 31                 Unnamed: 32                     Unnamed: 33                 Unnamed: 34   Unnamed: 35                 Unnamed: 36   Unnamed: 37                 Unnamed: 38                 Unnamed: 39                                                                                       Unnamed: 40                 Unnamed: 41                 Unnamed: 42                 Unnamed: 43                 Unnamed: 44                 Unnamed: 45                 Unnamed: 46   Unnamed: 47                 Unnamed: 48                            Unnamed: 49   Unnamed: 50                                        Unnamed: 51   Unnamed: 52   Unnamed: 53   Unnamed: 54   Unnamed: 55   Unnamed: 56   Unnamed: 57   Unnamed: 58   Unnamed: 59 Unnamed: 60
+0          NaN        NaN          NaN         NaN                             NaN                    NaN          NaN        NaN        NaN                                                                                                                                  NaN                                                                          NaN                                                           Manufacturing           NaN                         NaN                         NaN                         NaN                         NaN                         NaN                         NaN                         NaN                         NaN                         NaN           NaN                         NaN                         NaN                         NaN                         NaN                         NaN                         NaN                         NaN                         NaN                         NaN                         NaN                             NaN                         NaN  Construction                         NaN           NaN                         NaN                         NaN  Wholesale and retail trade; repair of motor vehicles, motocyles and personal and household goods                         NaN                         NaN                         NaN                         NaN                         NaN      Hotels and restaurants           NaN                         NaN  Transport, storage and communications           NaN  Professional, scientific and technical activities           NaN           NaN           NaN           NaN           NaN           NaN        Others           NaN  Additional
+1      Country       Year  Fiscal Year  n3_l2_year  Number of sub-national regions  Duration of Fieldwork  Methodology     Region      Total                                                                                   Number of firms in each subnational location level                                Number of firms in each business sector level                                              ISIC 4.0: 10/ ISIC 3.1: 15  ISIC 4.0: 11  ISIC 4.0: 12/ ISIC 3.1: 16  ISIC 4.0: 13/ ISIC 3.1: 17  ISIC 4.0: 14/ ISIC 3.1: 18  ISIC 4.0: 15/ ISIC 3.1: 19  ISIC 4.0: 16/ ISIC 3.1: 20  ISIC 4.0: 17/ ISIC 3.1: 21  ISIC 4.0: 18/ ISIC 3.1: 22  ISIC 4.0: 19/ ISIC 3.1: 23  ISIC 4.0: 20/ ISIC 3.1: 24  ISIC 4.0: 21  ISIC 4.0: 22/ ISIC 3.1: 25  ISIC 4.0: 23/ ISIC 3.1: 26  ISIC 4.0: 24/ ISIC 3.1: 27  ISIC 4.0: 25/ ISIC 3.1: 28  ISIC 4.0: 26/ ISIC 3.1: 32  ISIC 4.0: 27/ ISIC 3.1: 31  ISIC 4.0: 28/ ISIC 3.1: 29  ISIC 4.0: 29/ ISIC 3.1: 34  ISIC 4.0: 30/ ISIC 3.1: 35  ISIC 4.0: 31/ ISIC 3.1: 36  ISIC 4.0: 32/ ISIC 3.1: 33, 37  ISIC 4.0: 33/ ISIC 3.1: 30  ISIC 4.0: 41  ISIC 4.0: 42/ ISIC 3.1: 45  ISIC 4.0: 43  ISIC 4.0: 45/ ISIC 3.1: 50  ISIC 4.0: 46/ ISIC 3.1: 51                                                                        ISIC 4.0: 47/ ISIC 3.1: 52  ISIC 4.0: 49/ ISIC 3.1: 60  ISIC 4.0: 50/ ISIC 3.1: 61  ISIC 4.0: 51/ ISIC 3.1: 62  ISIC 4.0: 52/ ISIC 3.1: 63  ISIC 4.0: 53/ ISIC 3.1: 64  ISIC 4.0: 55/ ISIC 3.1: 55  ISIC 4.0: 56  ISIC 4.0: 58/ ISIC 3.1: 72                           ISIC 4.0: 61  ISIC 4.0: 62                                       ISIC 4.0: 69  ISIC 4.0: 70  ISIC 4.0: 71  ISIC 4.0: 72  ISIC 4.0: 73  ISIC 4.0: 74  ISIC 4.0: 75  ISIC 4.0: 79  ISIC 4.0: 95         NaN
+2  Afghanistan       2008    2007/2008   2005/2006                               6      10/2008 - 12/2008       Global     MENAAP        535  5 Smaller Cities (Bamyan,Ghazni,Khost,Kunduz,Pul-E-Khumri) (99), Hirat (67), Jalalabad (61), Kabul (181), Kandahar (59), Mazar (68)  Construction (172), Manufacturing (124), Other Services (134), Retail (105)                                                                      38             0                           0                           8                           1                           2                           1                           0                           4                           0                          11             0                          16                          14                           2                           8                           0                           4                           7                           0                           0                           7                               0                           0             0                         163             0                          23                          37                                                                                               105                          48                           0                           2                          11                           2                          13             0                           6                                      0             0                                                  0             0             0             0             0             0             0             0             0           2
+3  Afghanistan       2014    2012/2013   2010/2011                               5        5/2013 - 7/2014       Global     MENAAP        410                                                          Herat (69), Jalalabad (71), Kabul (128), Kandahar (68), Mazar-E-Sharif (74)    Construction (72), Manufacturing (139), Other Services (135), Retail (64)                                                                      39             0                           0                          13                           1                           1                           2                           2                           1                           3                           7             0                          14                          14                           9                           4                           3                           4                          10                           5                           1                           5                               1                           0             0                          72             0                           8                          87                                                                                                64                          21                           1                           0                           8                           9                           1             0                           0                                      0             0                                                  0             0             0             0             0             0             0             0             0           0
+4  Afghanistan       2025    2024/2025   2022/2023                               4         7/2025-01/2026       Global     MENAAP        426                                                               East & Southeast (56), Kabul (152), North (94), West & Southwest (124)                        Manufacturing (230), Other Services (191), Retail (5)                                                                      60             4                           0                          17                          40                          11                           1                           6                           3                           3                          17             5                          23                           6                           7                           7                           2                           8                           3                           1                           0                           5                               1                           0            42                          36             3                           3                          63                                                                                                 5                          15                           0                           0                          11                           0                           1             2                           1                                      7             0                                                  3             0             1             0             1             0             1             1             0           0
+--- sheet 'Details for Informal Sector ES': (42, 15)
+    columns: ['Country', 'Cities / Regions', 'Year', 'Duration of Fieldwork', 'Methodology', 'Region', 'Informal businesses enumerated', 'Long-form interviews completed', 'Making Goods', 'Retail', 'Other Services', 'Firms operating out of household', 'Firms without female participation in ownership', 'Country Specific Topics', 'Other Surveys Available']
+            Country                                                 Cities / Regions  Year Duration of Fieldwork Methodology  Region  Informal businesses enumerated  Long-form interviews completed  Making Goods  Retail  Other Services  Firms operating out of household  Firms without female participation in ownership Country Specific Topics Other Surveys Available
+0        Cabo Verde                                                   Mindelo, Praia  2006       2/2006 - 3/2006          RW     AFR                             NaN                             103          31.0    64.0             9.0                               NaN                                              NaN                     NaN             ES, Tourism
+1          Cameroon                                       Bafoussam, Douala, Yaounde  2006       1/2006 - 3/2006          RW     AFR                             NaN                              99          33.0    26.0            40.0                              17.0                                             70.0                     NaN             ES, Tourism
+2       Afghanistan  Bamyan, Kabul, Ghazni, Khost, Hirat, Kandahar, Mazar, Jalalabad  2008     10/2008 - 11/2008       Other  MENAAP                             NaN                             419         105.0   106.0           208.0                               NaN                                            412.0                     NaN                      ES
+3  Egypt, Arab Rep.          Cairo, Alexandria, Damita, Giza, Fayoum, Assuit, Souhag  2008       8/2008 - 9/2008          RW  MENAAP                             NaN                             500         134.0   298.0            68.0                              71.0                                            421.0                     NaN              Hotels, ES
+4      Burkina Faso                                      Bobo-Dioulasso, Ouagadougou  2009       6/2008 - 7/2008          RW     AFR                             NaN                             120          70.0     NaN             NaN                              34.0                                             95.0                     NaN               Micro, ES
+====================================================================================================
+FILE: wfp_markets_zwe.csv  (0.03 MB)
+shape: 486 rows x 7 cols
+columns:
+   - 'market_id'                            dtype=int64      missing=  0.0%  unique=   486  e.g. [708, 709, 710]
+   - 'market'                               dtype=str        missing=  0.0%  unique=   486  e.g. ['Mbare', 'Dombotombo', 'Murombedzi']
+   - 'countryiso3'                          dtype=str        missing=  0.0%  unique=     1  e.g. ['ZWE', 'ZWE', 'ZWE']
+   - 'admin1'                               dtype=str        missing=  1.6%  unique=    10  e.g. ['Harare', 'Mashonaland East', 'Mashonaland East']
+   - 'admin2'                               dtype=str        missing=  1.6%  unique=    81  e.g. ['Harare', 'Marondera Urban', 'Murehwa']
+   - 'latitude'                             dtype=float64    missing=  1.6%  unique=   309  e.g. [-17.86, -18.19, -17.64]
+   - 'longitude'                            dtype=float64    missing=  1.6%  unique=   301  e.g. [31.04, 31.55, 31.78]
+====================================================================================================
+FILE: hdx_hapi_poverty_rate_zwe.csv  (0.00 MB)
+shape: 33 rows x 14 cols
+columns:
+   - 'location_code'                        dtype=str        missing=  0.0%  unique=     1  e.g. ['ZWE', 'ZWE', 'ZWE']
+   - 'has_hrp'                              dtype=bool       missing=  0.0%  unique=     1  e.g. [False, False, False]
+   - 'in_gho'                               dtype=bool       missing=  0.0%  unique=     1  e.g. [False, False, False]
+   - 'provider_admin1_name'                 dtype=str        missing=  9.1%  unique=    10  e.g. ['Bulawayo', 'Bulawayo', 'Bulawayo']
+   - 'admin1_code'                          dtype=str        missing=  9.1%  unique=    10  e.g. ['ZW10', 'ZW10', 'ZW10']
+   - 'admin1_name'                          dtype=str        missing=  9.1%  unique=    10  e.g. ['Bulawayo', 'Bulawayo', 'Bulawayo']
+   - 'admin_level'                          dtype=int64      missing=  0.0%  unique=     2  e.g. [0, 0, 0]
+   - 'mpi'                                  dtype=float64    missing=  0.0%  unique=    33  e.g. [0.1564, 0.13, 0.1099]
+   - 'headcount_ratio'                      dtype=float64    missing=  0.0%  unique=    33  e.g. [36.0942, 30.2084, 25.8]
+   - 'intensity_of_deprivation'             dtype=float64    missing=  0.0%  unique=    33  e.g. [43.3426, 43.0433, 42.613]
+   - 'vulnerable_to_poverty'                dtype=float64    missing=  0.0%  unique=    33  e.g. [27.2391, 27.7063, 26.3303]
+   - 'in_severe_poverty'                    dtype=float64    missing=  0.0%  unique=    33  e.g. [10.542, 7.8232, 6.7702]
+   - 'reference_period_start'               dtype=str        missing=  0.0%  unique=     3  e.g. ['2010-01-01', '2015-01-01', '2019-01-01']
+   - 'reference_period_end'                 dtype=str        missing=  0.0%  unique=     3  e.g. ['2011-12-31', '2015-12-31', '2019-12-31']
+   date[reference_period_start] min=2010-01-01 00:00:00 max=2019-01-01 00:00:00 n_parsed=33
+   date[reference_period_end] min=2011-12-31 00:00:00 max=2019-12-31 00:00:00 n_parsed=33
+====================================================================================================
+FILE: hdx_hapi_population_zwe.csv  (0.65 MB)
+shape: 5508 rows x 17 cols
+columns:
+   - 'location_code'                        dtype=str        missing=  0.0%  unique=     1  e.g. ['ZWE', 'ZWE', 'ZWE']
+   - 'has_hrp'                              dtype=bool       missing=  0.0%  unique=     1  e.g. [False, False, False]
+   - 'in_gho'                               dtype=bool       missing=  0.0%  unique=     1  e.g. [False, False, False]
+   - 'provider_admin1_name'                 dtype=str        missing=  1.0%  unique=    10  e.g. ['Bulawayo', 'Bulawayo', 'Bulawayo']
+   - 'provider_admin2_name'                 dtype=str        missing= 10.8%  unique=    91  e.g. ['Bulawayo', 'Bulawayo', 'Bulawayo']
+   - 'admin1_code'                          dtype=str        missing=  1.0%  unique=    10  e.g. ['ZW10', 'ZW10', 'ZW10']
+   - 'admin1_name'                          dtype=str        missing=  1.0%  unique=    10  e.g. ['Bulawayo', 'Bulawayo', 'Bulawayo']
+   - 'admin2_code'                          dtype=str        missing= 10.8%  unique=    91  e.g. ['ZW1021', 'ZW1021', 'ZW1021']
+   - 'admin2_name'                          dtype=str        missing= 10.8%  unique=    91  e.g. ['Bulawayo', 'Bulawayo', 'Bulawayo']
+   - 'admin_level'                          dtype=int64      missing=  0.0%  unique=     3  e.g. [0, 0, 0]
+   - 'gender'                               dtype=str        missing=  0.0%  unique=     3  e.g. ['f', 'm', 'all']
+   - 'age_range'                            dtype=str        missing=  0.0%  unique=    18  e.g. ['all', 'all', 'all']
+   - 'min_age'                              dtype=float64    missing=  5.6%  unique=    17  e.g. [0.0, 5.0, 10.0]
+   - 'max_age'                              dtype=float64    missing= 11.1%  unique=    16  e.g. [4.0, 9.0, 14.0]
+   - 'population'                           dtype=int64      missing=  0.0%  unique=  4542  e.g. [1110922, 1030556, 2141478]
+   - 'reference_period_start'               dtype=str        missing=  0.0%  unique=     1  e.g. ['2023-01-01', '2023-01-01', '2023-01-01']
+   - 'reference_period_end'                 dtype=str        missing=  0.0%  unique=     1  e.g. ['2023-12-31', '2023-12-31', '2023-12-31']
+   date[reference_period_start] min=2023-01-01 00:00:00 max=2023-01-01 00:00:00 n_parsed=5508
+   date[reference_period_end] min=2023-12-31 00:00:00 max=2023-12-31 00:00:00 n_parsed=5508
+====================================================================================================
+FILE: hdx_hapi_rainfall_zwe.csv  (0.67 MB)
+shape: 5100 rows x 20 cols
+columns:
+   - 'location_code'                        dtype=str        missing=  0.0%  unique=     1  e.g. ['ZWE', 'ZWE', 'ZWE']
+   - 'has_hrp'                              dtype=bool       missing=  0.0%  unique=     1  e.g. [False, False, False]
+   - 'in_gho'                               dtype=bool       missing=  0.0%  unique=     1  e.g. [False, False, False]
+   - 'provider_admin1_name'                 dtype=str        missing=  0.0%  unique=     1  e.g. ['Not provided', 'Not provided', 'Not provided']
+   - 'provider_admin2_name'                 dtype=float64    missing=100.0%  unique=     0  e.g. []
+   - 'admin1_code'                          dtype=str        missing=  0.0%  unique=    10  e.g. ['ZW10', 'ZW10', 'ZW10']
+   - 'admin1_name'                          dtype=str        missing=  0.0%  unique=    10  e.g. ['Bulawayo', 'Bulawayo', 'Bulawayo']
+   - 'admin2_code'                          dtype=float64    missing=100.0%  unique=     0  e.g. []
+   - 'admin2_name'                          dtype=float64    missing=100.0%  unique=     0  e.g. []
+   - 'admin_level'                          dtype=int64      missing=  0.0%  unique=     1  e.g. [1, 1, 1]
+   - 'provider_admin1_code'                 dtype=int64      missing=  0.0%  unique=    10  e.g. [900969, 900969, 900969]
+   - 'provider_admin2_code'                 dtype=float64    missing=100.0%  unique=     0  e.g. []
+   - 'aggregation_period'                   dtype=str        missing=  0.0%  unique=     3  e.g. ['dekad', '1-month', '3-month']
+   - 'rainfall'                             dtype=float64    missing=  0.0%  unique=  4794  e.g. [2.1111112, 4.111111, 5.5555553]
+   - 'rainfall_long_term_average'           dtype=float64    missing=  0.0%  unique=  1077  e.g. [5.3425927, 9.12037, 10.812963]
+   - 'rainfall_anomaly_pct'                 dtype=float64    missing=  0.0%  unique=  4967  e.g. [68.7556, 64.52459, 66.75255]
+   - 'number_pixels'                        dtype=int64      missing=  0.0%  unique=    10  e.g. [18, 18, 18]
+   - 'version'                              dtype=str        missing=  0.0%  unique=     2  e.g. ['final', 'final', 'final']
+   - 'reference_period_start'               dtype=str        missing=  0.0%  unique=   170  e.g. ['2022-10-01', '2022-10-01', '2022-10-01']
+   - 'reference_period_end'                 dtype=str        missing=  0.0%  unique=   170  e.g. ['2022-10-10', '2022-10-10', '2022-10-10']
+   date[aggregation_period] min=NaT max=NaT n_parsed=0
+   date[reference_period_start] min=2022-01-01 00:00:00 max=2026-09-11 00:00:00 n_parsed=5100
+   date[reference_period_end] min=2022-01-10 00:00:00 max=2026-09-20 00:00:00 n_parsed=5100
+====================================================================================================
+FILE: wfp_food_prices_zwe.csv  (3.66 MB)
+shape: 28168 rows x 16 cols
+columns:
+   - 'date'                                 dtype=str        missing=  0.0%  unique=   192  e.g. ['2010-01-15', '2010-01-15', '2010-01-15']
+   - 'admin1'                               dtype=str        missing=  3.2%  unique=    10  e.g. ['Harare', 'Manicaland', 'Manicaland']
+   - 'admin2'                               dtype=str        missing=  3.2%  unique=    81  e.g. ['Harare', 'Chimanimani', 'Mutare Urban']
+   - 'market'                               dtype=str        missing=  0.0%  unique=   336  e.g. ['Kombai', 'Mandava', 'Mucheke']
+   - 'market_id'                            dtype=int64      missing=  0.0%  unique=   336  e.g. [723, 722, 719]
+   - 'latitude'                             dtype=float64    missing=  3.2%  unique=   235  e.g. [-17.86, -19.77, -19.0]
+   - 'longitude'                            dtype=float64    missing=  3.2%  unique=   237  e.g. [31.04, 32.42, 32.64]
+   - 'category'                             dtype=str        missing=  0.0%  unique=     6  e.g. ['cereals and tubers', 'cereals and tubers', 'cereals and tubers']
+   - 'commodity'                            dtype=str        missing=  0.0%  unique=    31  e.g. ['Maize', 'Maize', 'Maize']
+   - 'commodity_id'                         dtype=int64      missing=  0.0%  unique=    31  e.g. [51, 51, 51]
+   - 'unit'                                 dtype=str        missing=  0.0%  unique=     4  e.g. ['KG', 'KG', 'KG']
+   - 'priceflag'                            dtype=str        missing=  0.0%  unique=     2  e.g. ['actual', 'actual', 'actual']
+   - 'pricetype'                            dtype=str        missing=  0.0%  unique=     1  e.g. ['Retail', 'Retail', 'Retail']
+   - 'currency'                             dtype=str        missing=  0.0%  unique=     2  e.g. ['USD', 'USD', 'USD']
+   - 'price'                                dtype=float64    missing=  0.0%  unique= 11684  e.g. [0.26, 0.26, 0.31]
+   - 'usdprice'                             dtype=float64    missing=  0.0%  unique=  1017  e.g. [0.26, 0.26, 0.31]
+   date[date] min=2010-01-15 00:00:00 max=2026-05-15 00:00:00 n_parsed=28168
+====================================================================================================
+FILE: hdx_hapi_food_price_zwe.csv  (4.61 MB)
+shape: 25554 rows x 22 cols
+columns:
+   - 'location_code'                        dtype=str        missing=  0.0%  unique=     1  e.g. ['ZWE', 'ZWE', 'ZWE']
+   - 'has_hrp'                              dtype=bool       missing=  0.0%  unique=     1  e.g. [False, False, False]
+   - 'in_gho'                               dtype=bool       missing=  0.0%  unique=     1  e.g. [False, False, False]
+   - 'provider_admin1_name'                 dtype=str        missing=  0.8%  unique=    10  e.g. ['Manicaland', 'Manicaland', 'Manicaland']
+   - 'provider_admin2_name'                 dtype=str        missing=  0.8%  unique=    81  e.g. ['Chipinge', 'Chipinge', 'Chipinge']
+   - 'admin1_code'                          dtype=str        missing=  0.8%  unique=    10  e.g. ['ZW11', 'ZW11', 'ZW11']
+   - 'admin1_name'                          dtype=str        missing=  0.8%  unique=    10  e.g. ['Manicaland', 'Manicaland', 'Manicaland']
+   - 'admin2_code'                          dtype=str        missing=  0.8%  unique=    81  e.g. ['ZW1103', 'ZW1103', 'ZW1103']
+   - 'admin2_name'                          dtype=str        missing=  0.8%  unique=    81  e.g. ['Chipinge', 'Chipinge', 'Chipinge']
+   - 'admin_level'                          dtype=int64      missing=  0.0%  unique=     2  e.g. [2, 2, 2]
+   - 'market_name'                          dtype=str        missing=  0.0%  unique=   335  e.g. ['Tongogara Refugee Camp 2', 'Tongogara Refugee Camp 2', 'Tongogara Refugee Camp 2']
+   - 'lat'                                  dtype=float64    missing=  0.8%  unique=   235  e.g. [-20.35, -20.35, -20.35]
+   - 'lon'                                  dtype=float64    missing=  0.8%  unique=   237  e.g. [32.31, 32.31, 32.31]
+   - 'commodity_category'                   dtype=str        missing=  0.0%  unique=     6  e.g. ['cereals and tubers', 'cereals and tubers', 'miscellaneous food']
+   - 'commodity_name'                       dtype=str        missing=  0.0%  unique=    28  e.g. ['Maize meal', 'Rice', 'Sugar']
+   - 'unit'                                 dtype=str        missing=  0.0%  unique=     4  e.g. ['KG', 'KG', 'KG']
+   - 'price_flag'                           dtype=str        missing=  0.0%  unique=     2  e.g. ['actual', 'actual', 'actual']
+   - 'price_type'                           dtype=str        missing=  0.0%  unique=     1  e.g. ['Retail', 'Retail', 'Retail']
+   - 'currency_code'                        dtype=str        missing=  0.0%  unique=     2  e.g. ['USD', 'USD', 'USD']
+   - 'price'                                dtype=float64    missing=  0.0%  unique= 11482  e.g. [0.6, 1.04, 1.36]
+   - 'reference_period_start'               dtype=str        missing=  0.0%  unique=   109  e.g. ['2026-01-15', '2026-01-15', '2026-01-15']
+   - 'reference_period_end'                 dtype=str        missing=  0.0%  unique=   109  e.g. ['2026-02-14', '2026-02-14', '2026-02-14']
+   date[reference_period_start] min=2017-01-15 00:00:00 max=2026-05-15 00:00:00 n_parsed=25554
+   date[reference_period_end] min=2017-02-14 00:00:00 max=2026-06-14 00:00:00 n_parsed=25554

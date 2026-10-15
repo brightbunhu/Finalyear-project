@@ -1,0 +1,20 @@
+{
+  "panel_rows": 20530,
+  "month_min": "2010-01-01",
+  "month_max": "2026-05-01",
+  "markets": 335,
+  "districts": 79,
+  "y1_prevalence_pct": 14.96,
+  "y2_prevalence_pct": 16.3,
+  "figures": [
+    "fig4.3.1_monthly_coverage.png",
+    "fig4.3.2_class_balance.png",
+    "fig4.3.3_prev_by_category.png",
+    "fig4.3.4_median_usd_price.png",
+    "fig4.3.5_median_nominal_price.png",
+    "fig4.3.8_returns_distribution.png",
+    "fig4.3.6_rainfall_anomaly_dist.png",
+    "fig4.3.7_rainfall_anomaly_series.png",
+    "fig4.3.9_missingness.png"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "y1_return_histgbm_usd",
+  "base": "usdprice",
+  "target": "y1",
+  "model": "HistGradientBoostingClassifier",
+  "features_numeric": [
+    "ret_z_cur",
+    "ret_lag1",
+    "ret_lag2",
+    "ret_roll3",
+    "spi",
+    "peer_count",
+    "rain_anom_z",
+    "rain_anom_lag1",
+    "rain_anom_lag2",
+    "rain_anom_lag3",
+    "rain_roll3_mm",
+    "month_sin",
+    "month_cos",
+    "log_population",
+    "interaction"
+  ],
+  "features_categorical": [
+    "category",
+    "currency"
+  ],
+  "trained_through": "2025-04-01",
+  "holdout_from": "2025-05-01",
+  "n_train": 5346,
+  "prevalence_train": 0.14889637111859333,
+  "threshold_y1_sd": 1.0,
+  "threshold_y2_spi": 1.2,
+  "fitted_at_utc": "2026-10-15T13:51:23+00:00",
+  "seed": 42,
+  "config_version": "0.1.0",
+  "tuning": {
+    "params": {
+      "learning_rate": 0.07754794236646007,
+      "max_iter": 200,
+      "max_leaf_nodes": 40,
+      "min_samples_leaf": 15,
+      "l2_regularization": 0.013537591489566328,
+      "max_bins": 255
+    },
+    "n_trials": 40,
+    "best_mean_cv_roc_auc": 0.6113506550594879
+  }
+}

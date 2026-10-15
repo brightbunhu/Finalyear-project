@@ -1,0 +1,9 @@
+Phase 3 rainfall build
+adm2 districts: 91
+zw window dims: {'time': 548, 'latitude': 160, 'longitude': 180}
+pixels: 160 x 180 = 28800
+pixels inside a district: 13411 (46.6%)
+time coverage: 1981-01-01 -> 2026-08-01 n= 548
+rainfall rows: 49320 districts: 90
+climatology rows: 1080
+summary: {'zw_window_dims': [160, 180], 'pixels_inside_district_pct': np.float64(46.6), 'districts': 90, 'months': 548, 'time_min': '1981-01-01', 'time_max': '2026-08-01', 'climatology_period': ['1981-01-01', '2015-12-31']}
