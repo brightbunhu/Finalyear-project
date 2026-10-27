@@ -1,100 +1,96 @@
-"""Capture screenshots of every dashboard page for Chapter 5.
-
-Starts the Streamlit app headlessly, opens each page via its ?page= deep-link, waits
-for it to render, and saves a full-page PNG into screenshots/.
-
-Usage: python scripts/capture_dashboard.py
-"""
-from __future__ import annotations
-
-import socket
+"""Launch Streamlit dashboard in background, capture screenshots using Playwright, and save images."""
+import os
 import subprocess
-import sys
 import time
-import urllib.parse
-import urllib.request
 from pathlib import Path
+from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "screenshots"
-OUT.mkdir(exist_ok=True)
+OUT_SHOTS = ROOT / "outputs" / "figures" / "screenshots"
+ROOT_SHOTS = ROOT / "screenshots"
+OUT_FIG = ROOT / "outputs" / "figures"
 
-PORT = 8765
-PAGES = [
-    "Overview",
-    "Data coverage & quality",
-    "Price trends",
-    "Rainfall",
-    "Market & commodity explorer",
-    "Model performance",
-    "Historical holdout predictions",
-    "Prediction",
-    "Geographic view",
-    "Limitations & disclaimers",
-]
+OUT_SHOTS.mkdir(parents=True, exist_ok=True)
+ROOT_SHOTS.mkdir(parents=True, exist_ok=True)
 
+PORT = 8501
+URL = f"http://localhost:{PORT}"
 
-def wait_port(port, timeout=120):
-    start = time.time()
-    while time.time() - start < timeout:
-        try:
-            with socket.create_connection(("127.0.0.1", port), timeout=1):
-                return True
-        except OSError:
-            time.sleep(1)
-    return False
+print("Starting Streamlit process...")
+env = os.environ.copy()
+env["PYTHONPATH"] = str(ROOT / "dashboard") + os.pathsep + env.get("PYTHONPATH", "")
 
+proc = subprocess.Popen(
+    ["streamlit", "run", "dashboard/app.py", "--server.port", str(PORT), "--server.headless", "true"],
+    cwd=str(ROOT),
+    env=env,
+    stdout=subprocess.PIPE,
+    stderr=subprocess.PIPE,
+)
 
-def slug(name):
-    return "".join(c if c.isalnum() else "_" for c in name).strip("_")
-
-
-def main():
-    cmd = [sys.executable, "-m", "streamlit", "run", "dashboard/app.py",
-           "--server.headless", "true", "--server.port", str(PORT),
-           "--browser.gatherUsageStats", "false"]
-    proc = subprocess.Popen(cmd, cwd=str(ROOT))
+# Wait for server to start
+import urllib.request
+started = False
+for i in range(25):
+    time.sleep(1)
     try:
-        if not wait_port(PORT):
-            print("Streamlit did not start in time"); return
-        time.sleep(6)
-        base = f"http://127.0.0.1:{PORT}/"
-        op = urllib.request.build_opener(urllib.request.ProxyHandler({}))
-        try:
-            op.open(base, timeout=10).read()
-        except Exception:
-            pass
+        urllib.request.urlopen(URL, timeout=2)
+        started = True
+        print(f"Streamlit server is up and responsive at {URL}")
+        break
+    except Exception:
+        print(f"Waiting for Streamlit server... ({i+1}/25)")
 
-        from playwright.sync_api import sync_playwright
+if not started:
+    print("Streamlit server failed to start in time.")
+    proc.terminate()
+    exit(1)
 
-        with sync_playwright() as pw:
-            browser = pw.chromium.launch()
-            page = browser.new_page(viewport={"width": 1600, "height": 1000},
-                                    device_scale_factor=2)
-            for name in PAGES:
-                url = base + "?" + urllib.parse.urlencode({"page": name})
-                try:
-                    page.goto(url, wait_until="domcontentloaded", timeout=60000)
-                except Exception as e:
-                    print(f"goto warning for {name}: {type(e).__name__}")
-                try:
-                    page.wait_for_selector('[data-testid="stAppViewContainer"]',
-                                           timeout=60000)
-                except Exception:
-                    pass
-                time.sleep(10)
-                f = OUT / f"{slug(name)}.png"
-                page.screenshot(path=str(f), full_page=True)
-                print(f"saved {f.name}")
-            browser.close()
-        print(f"\nAll screenshots in {OUT}")
-    finally:
-        proc.terminate()
-        try:
-            proc.wait(timeout=15)
-        except Exception:
-            proc.kill()
+# Playwright capture
+try:
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page(viewport={"width": 1600, "height": 1050})
 
+        pages_to_capture = [
+            ("Home", "dashboard_01_home.png", "Home Overview Page"),
+            ("Make a Prediction", "dashboard_02_prediction_studio.png", "Scenario Prediction Studio"),
+            ("Geographic Explorer", "dashboard_03_geographic_explorer.png", "Geographic Explorer Page"),
+            ("Data & Integration", "dashboard_04_dataset_catalogue.png", "Data & Integration Overview"),
+            ("Coverage & Quality", "dashboard_05_coverage_quality.png", "Data Coverage & Quality Page"),
+            ("Price Trends", "dashboard_06_price_trends.png", "Commodity Price Trends Page"),
+            ("Rainfall & Climate", "dashboard_07_rainfall_climate.png", "Rainfall & Climate Anomaly Page"),
+            ("Model Performance", "dashboard_08_model_performance.png", "Model Performance Overview"),
+            ("Holdout Predictions", "dashboard_09_historical_holdout.png", "Holdout Predictions Page"),
+            ("Statistical Analysis", "dashboard_10_statistical_analysis.png", "Statistical Analysis Page"),
+            ("Research Evidence", "dashboard_11_research_evidence.png", "Research Evidence & Downloads"),
+            ("Limitations & Interpretation", "dashboard_12_limitations.png", "Limitations & Academic Scope"),
+        ]
 
-if __name__ == "__main__":
-    main()
+        for page_name, filename, desc in pages_to_capture:
+            print(f"Capturing: {desc} ({filename})...")
+            # Navigate using legacy page routing parameter
+            target_url = f"{URL}/?page={page_name.replace(' ', '+').replace('&', '%26')}"
+            page.goto(target_url, wait_until="domcontentloaded", timeout=60000)
+            time.sleep(4.0)  # Allow Streamlit components and charts to fully render
+
+            # Save in multiple destinations
+            p1 = OUT_SHOTS / filename
+            p2 = ROOT_SHOTS / filename
+            p3 = OUT_FIG / filename
+            page.screenshot(path=str(p1), full_page=False)
+            page.screenshot(path=str(p2), full_page=False)
+            page.screenshot(path=str(p3), full_page=False)
+            print(f"  Saved {filename}")
+
+        browser.close()
+        print("Playwright capture completed successfully.")
+
+finally:
+    print("Terminating Streamlit server process...")
+    proc.terminate()
+    try:
+        proc.wait(timeout=5)
+    except Exception:
+        proc.kill()
+    print("Streamlit process stopped.")

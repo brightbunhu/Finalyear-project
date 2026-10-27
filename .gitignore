@@ -1,4 +1,10 @@
-# Data and large files
+# Large Data and Media files
+*.nc
+*.grib
+*.tif
+*.tiff
+*.zip
+*.tar.gz
 raw/*.nc
 raw/*.grib
 raw/*.tif
@@ -16,18 +22,29 @@ venv/
 ENV/
 .env
 
+# Testing & Caches
+.pytest_cache/
+.coverage
+htmlcov/
+
 # Jupyter
 .ipynb_checkpoints/
 
-# IDE
+# IDE & Agents
 .vscode/
 .idea/
 .DS_Store
+.cursor/
+.manus/
 
-# Backups
+# Work files & backups
+.work_*
 *.bak
 *.backup
 *~
+friend's research project turnit in.pdf
+Supervisor comments.docx
+*.docx
 
 # Misc
 scratch/

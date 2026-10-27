@@ -1,0 +1,18 @@
+Search Db	Search Strings 	Results
+open alex	"""food price"" AND (""machine learning"" OR xgboost OR ""random forest"")"	219
+	"""food price"" AND (forecast OR prediction OR ""early warning"")"	"1,374"
+	"""food price"" AND (Zimbabwe OR ""Southern Africa"")"	194
+	" (""food price"" OR ""food security"") AND (""machine learning"" OR ""deep learning"") AND (predict OR forecast OR crisis)"	"3,779"
+	"(""price volatility"" OR ""price anomaly"" OR ""price stress"") AND (food OR commodity) AND (machine learning OR prediction OR forecast)"	226
+	"(""food price"" OR ""maize price"" OR ""market price"") AND (rainfall OR drought OR climate) AND (Africa OR Zimbabwe)"	812
+Semantic scholar search	"food price AND (""machine learning"" OR xgboost OR ""random forest"")"	112
+	" ""food price"" AND (forecast OR prediction OR ""early warning"")"	809
+	"""food price"" AND (Zimbabwe OR ""Southern Africa"")"	115
+	"(""food price"" OR ""food security"") AND (""machine learning"" OR ""deep learning"") AND (predict OR forecast OR crisis)"	"1,000"
+	" (""price volatility"" OR ""price anomaly"" OR ""price stress"") AND (food OR commodity) AND (machine learning OR prediction OR forecast)"	72
+	"(""food price"" OR ""maize price"" OR ""market price"") AND (rainfall OR drought OR climate) AND (Africa OR Zimbabwe)"	508
+PubMed	"S1  ""food price"" AND (""machine learning"" OR xgboost OR ""random forest"")"	1
+	" ""food price"" AND (forecast OR prediction OR ""early warning"")"	7
+	" (""food price"" OR ""food security"") AND (""machine learning"" OR ""deep learning"") AND (predict OR forecast OR crisis)"	0
+	"(""price volatility"" OR ""price anomaly"" OR ""price stress"") AND (food OR commodity) AND (machine learning OR prediction OR forecast)"	0
+	"(""food price"" OR ""maize price"" OR ""market price"") AND (rainfall OR drought OR climate) AND (Africa OR Zimbabwe)"	0

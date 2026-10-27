@@ -1,0 +1,4 @@
+market_id,commodity_id,month,district,ret_z_cur,ret_lag1,ret_lag2,ret_roll3,spi,peer_count,rain_anom_z,rain_anom_lag1,rain_anom_lag2,rain_anom_lag3,rain_roll3_mm,month_sin,month_cos,log_population,interaction,category,currency
+708,51,2026-11-01,Harare,-0.0833,0.0175,0.01,0.0175,0.9067,12.0,-0.85,-0.7,-0.5,-0.3,55.0,-0.5000000000000004,0.8660254037844384,14.487,0.0708,cereals and tubers,USD
+716,51,2026-11-01,Nkayi,-0.0833,0.0175,0.01,0.0175,0.9992,12.0,-0.85,-0.7,-0.5,-0.3,55.0,-0.5000000000000004,0.8660254037844384,11.7254,0.0708,cereals and tubers,USD
+724,51,2026-11-01,Mutare Urban,-0.0833,0.0175,0.01,0.0175,0.935,12.0,-0.85,-0.7,-0.5,-0.3,55.0,-0.5000000000000004,0.8660254037844384,12.3395,0.0708,cereals and tubers,USD

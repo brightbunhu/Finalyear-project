@@ -30,19 +30,19 @@
   "prevalence_train": 0.14889637111859333,
   "threshold_y1_sd": 1.0,
   "threshold_y2_spi": 1.2,
-  "fitted_at_utc": "2026-10-15T13:51:23+00:00",
+  "fitted_at_utc": "2026-10-18T07:22:05+00:00",
   "seed": 42,
   "config_version": "0.1.0",
   "tuning": {
     "params": {
-      "learning_rate": 0.07754794236646007,
-      "max_iter": 200,
-      "max_leaf_nodes": 40,
-      "min_samples_leaf": 15,
-      "l2_regularization": 0.013537591489566328,
+      "learning_rate": 0.07500118950416987,
+      "max_iter": 100,
+      "max_leaf_nodes": 41,
+      "min_samples_leaf": 18,
+      "l2_regularization": 0.0018205657658407262,
       "max_bins": 255
     },
-    "n_trials": 40,
-    "best_mean_cv_roc_auc": 0.6113506550594879
+    "n_trials": 10,
+    "best_mean_cv_roc_auc": 0.5962274247815218
   }
 }

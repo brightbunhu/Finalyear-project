@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Zimbabwe Food-Price Stress Prediction - Defense Preparation Guide</title>
+<style>
+@page {
+  size: A4;
+  margin: 17mm 15mm 18mm 15mm;
+}
+
+:root {
+  --navy: #0f2f57;
+  --navy-2: #123a6b;
+  --blue: #1d4ed8;
+  --ink: #1f2937;
+  --muted: #5b6778;
+  --line: #dbe2ea;
+  --soft: #f8fafc;
+  --accent: #0ea5a4;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Calibri, "Helvetica Neue", Arial, sans-serif;
+  font-size: 10.4pt;
+  line-height: 1.52;
+  color: var(--ink);
+  background: #ffffff;
+}
+
+.cover {
+  page-break-after: always;
+  min-height: 246mm;
+  padding: 16mm 14mm 10mm 14mm;
+  border-top: 12px solid var(--navy);
+  border-bottom: 4px solid var(--accent);
+  position: relative;
+  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 46%);
+}
+
+.cover-kicker {
+  font-size: 9.5pt;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--blue);
+  margin-bottom: 14mm;
+}
+
+.cover h1 {
+  font-size: 34pt;
+  line-height: 1.12;
+  color: var(--navy);
+  border: 0;
+  margin: 0 0 8mm 0;
+  padding: 0;
+  page-break-before: avoid;
+}
+
+.cover h2 {
+  font-size: 16pt;
+  line-height: 1.35;
+  color: var(--muted);
+  font-weight: 500;
+  border: 0;
+  margin: 0 0 10mm 0;
+  padding: 0;
+}
+
+.cover p {
+  font-size: 11pt;
+  color: #374151;
+  max-width: 155mm;
+}
+
+.cover strong { color: var(--navy); }
+
+.cover-meta {
+  position: absolute;
+  left: 14mm;
+  right: 14mm;
+  bottom: 12mm;
+  border-top: 1px solid var(--line);
+  padding-top: 6mm;
+  font-size: 8.8pt;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.cover-meta strong {
+  display: inline-block;
+  min-width: 22mm;
+  color: var(--navy);
+}
+
+h1 {
+  page-break-before: always;
+  font-size: 21pt;
+  line-height: 1.22;
+  color: var(--navy);
+  margin: 0 0 7mm 0;
+  padding-bottom: 4mm;
+  border-bottom: 2.5px solid var(--blue);
+  letter-spacing: -0.2px;
+}
+
+h2 {
+  font-size: 14.2pt;
+  line-height: 1.3;
+  color: var(--navy-2);
+  margin: 8mm 0 3mm 0;
+  padding-left: 3.5mm;
+  border-left: 4px solid var(--accent);
+  page-break-after: avoid;
+}
+
+h3 {
+  font-size: 11.4pt;
+  color: var(--blue);
+  margin: 6mm 0 2mm 0;
+  page-break-after: avoid;
+}
+
+p { margin: 0 0 3.2mm 0; orphans: 3; widows: 3; }
+
+ul, ol { margin: 0 0 3.5mm 0; padding-left: 6mm; }
+li { margin-bottom: 1.4mm; }
+li > ul, li > ol { margin-top: 1.2mm; }
+
+strong { color: #111827; }
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 6mm 0;
+}
+
+blockquote {
+  margin: 4mm 0;
+  padding: 3.5mm 5mm;
+  background: #eff6ff;
+  border-left: 4px solid var(--blue);
+  color: #17365d;
+  font-size: 10.2pt;
+  page-break-inside: avoid;
+}
+
+blockquote p { margin: 0; }
+blockquote p + p { margin-top: 2mm; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 3mm 0 5mm 0;
+  font-size: 8.8pt;
+  line-height: 1.38;
+  page-break-inside: avoid;
+}
+
+thead { display: table-header-group; }
+
+th {
+  background: var(--navy);
+  color: #ffffff;
+  font-weight: 600;
+  text-align: left;
+  padding: 2.2mm 2.6mm;
+  border: 1px solid var(--navy);
+}
+
+td {
+  padding: 2mm 2.6mm;
+  border: 1px solid var(--line);
+  vertical-align: top;
+}
+
+tbody tr:nth-child(even) { background: var(--soft); }
+
+code {
+  font-family: Consolas, "SFMono-Regular", Menlo, monospace;
+  font-size: 8.9pt;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 2px;
+  padding: 0.3mm 1.4mm;
+  color: #0f2f57;
+}
+
+pre {
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 3.5mm 4mm;
+  border-radius: 2mm;
+  font-size: 8.6pt;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+  page-break-inside: avoid;
+}
+
+pre code {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  padding: 0;
+}
+
+.checkbox {
+  color: var(--blue);
+  font-size: 11pt;
+  margin-right: 1.5mm;
+}
+
+a { color: var(--blue); text-decoration: none; }
+
+h1 + p, h2 + p, h3 + p { margin-top: 0; }
+</style>
+</head>
+<body>
+
+    <section class="cover">
+      <div class="cover-kicker">Research Dashboard &middot; Defense Preparation</div>
+      <h1>Zimbabwe Food-Price Stress Prediction</h1>
+<h2>Defense Preparation Guide</h2>
+<p><strong>A plain-language walkthrough of every dashboard page, the numbers to memorise, and what to say in the viva</strong></p>
+<p>Project: Early Warning Machine Learning Architecture for Food Price Stress and Anomalies in Zimbabwe</p>
+<p>Prepared from the live dashboard code and the stored pipeline artefacts.</p>
+
+      <div class="cover-meta">
+        <div><strong>Project</strong> Early Warning Machine Learning Architecture for Food Price Stress and Anomalies in Zimbabwe</div>
+        <div><strong>Application</strong> Streamlit research dashboard &middot; 7 sections &middot; 12 screens</div>
+        <div><strong>Status</strong> Academic research prototype &middot; not an operational early-warning system</div>
+      </div>
+    </section>
+    
+<h2>How to use this guide</h2>
+<p>This document explains the dashboard the way an examiner will experience it. For every page you get:</p>
+<ul>
+<li><strong>What it shows</strong> — the controls and the output.</li>
+<li><strong>What it is for</strong> — the one job that page does.</li>
+<li><strong>What to say</strong> — a short, defensible sentence you can use in the presentation.</li>
+<li><strong>The data behind it</strong> — the artefact or calculation that produces the numbers.</li>
+</ul>
+<p>Sections 5 to 8 are the ones to revise the night before: the numbers table, the glossary, the demo script and the question-and-answer bank.</p>
+<blockquote>
+<p><strong>The single most important message:</strong> the dashboard is the evidence layer of a reproducible pipeline. It does not train models live, it does not invent values, and it is not an official early-warning system. Every number is read from a stored artefact, and every page states its provenance.</p>
+</blockquote>
+
+<h2>Contents</h2>
+<ol>
+<li>The system in one page</li>
+<li>How the user interface is organised</li>
+<li>Page-by-page walkthrough</li>
+<li>Architecture: how the dashboard is built</li>
+<li>Numbers to memorise</li>
+<li>Glossary of terms examiners may ask about</li>
+<li>A six-minute demonstration script</li>
+<li>Viva questions and model answers</li>
+<li>Limitations you must state</li>
+<li>Issues found and fixes applied</li>
+<li>Pre-defense checklist</li>
+</ol>
+
+<h1>1. The system in one page</h1>
+<p>The project predicts <strong>market food-price stress</strong> in Zimbabwe using a supervised machine-learning pipeline. The dashboard is the presentation layer over that pipeline.</p>
+<p>The pipeline does five things:</p>
+<ol>
+<li><strong>Ingests</strong> WFP food prices, WFP market coordinates, CHIRPS rainfall, geoBoundaries district polygons and HDX population data.</li>
+<li><strong>Harmonises</strong> market coordinates to districts with a point-in-polygon join, and aggregates rainfall to district-month values.</li>
+<li><strong>Builds a model-ready panel</strong> of monthly market-commodity-currency cells with engineered features and next-month labels.</li>
+<li><strong>Trains and evaluates</strong> five learners — majority baseline, persistence baseline, logistic regression, histogram gradient boosting and XGBoost — using expanding-window cross-validation and a final forward holdout.</li>
+<li><strong>Persists</strong> metrics, predictions, figures, reports and model binaries. The dashboard reads only these persisted artefacts.</li>
+</ol>
+<h3>The four prediction tasks</h3>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Price base</th>
+<th>Target</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T1</td>
+<td>USD</td>
+<td>Y1</td>
+<td>Will this market-commodity cell have an unusually large next-month price increase (standardised return z ≥ 1.0)?</td>
+</tr>
+<tr>
+<td>T2</td>
+<td>USD</td>
+<td>Y2</td>
+<td>Will this cell be at least 20% above the national peer median next month (SPI ≥ 1.20)?</td>
+</tr>
+<tr>
+<td>T3</td>
+<td>Nominal local currency</td>
+<td>Y1</td>
+<td>Same as T1, on the nominal price base.</td>
+</tr>
+<tr>
+<td>T4</td>
+<td>Nominal local currency</td>
+<td>Y2</td>
+<td>Same as T2, on the nominal price base.</td>
+</tr>
+</tbody>
+</table>
+<p>The two price bases are never pooled. The two targets answer different questions: <strong>Y1 is temporal volatility</strong>, <strong>Y2 is spatial market divergence</strong>.</p>
+<h3>The four headline facts</h3>
+<table>
+<thead>
+<tr>
+<th>Fact</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Raw price rows ingested</td>
+<td>28,168</td>
+</tr>
+<tr>
+<td>Monthly food cells after cleaning</td>
+<td>20,530</td>
+</tr>
+<tr>
+<td>Markets matched to a district</td>
+<td>327 of 335 (8 unmatched, not imputed)</td>
+</tr>
+<tr>
+<td>Best forward-holdout result</td>
+<td>T2 USD Y2, HistGBM: ROC-AUC <strong>0.883</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Say this:</strong> "The dashboard is the presentation and evidence layer of the project. The pipeline produces the data, models and metrics; the dashboard lets an examiner inspect every stage without rerunning the code. Nothing shown is fabricated — missing artefacts produce an explicit 'not available' state."</p>
+</blockquote>
+
+<h1>2. How the user interface is organised</h1>
+<p>The app has <strong>seven top-level sections</strong> in the dark navy sidebar. Some sections contain sub-pages, switched by the segmented control (the row of pill buttons) under the page title.</p>
+<table>
+<thead>
+<tr>
+<th>Sidebar section</th>
+<th>Icon</th>
+<th>Sub-pages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Home</td>
+<td>House</td>
+<td>Home</td>
+</tr>
+<tr>
+<td>Make a Prediction</td>
+<td>Pencil</td>
+<td>Prediction Studio</td>
+</tr>
+<tr>
+<td>Geographic Explorer</td>
+<td>Map</td>
+<td>Geographic Explorer</td>
+</tr>
+<tr>
+<td>Data &amp; Integration</td>
+<td>Database</td>
+<td>Dataset Catalogue, Coverage &amp; Quality, Price Trends, Rainfall &amp; Climate</td>
+</tr>
+<tr>
+<td>Model Performance</td>
+<td>Line chart</td>
+<td>Overview, Holdout Predictions, Statistical Analysis</td>
+</tr>
+<tr>
+<td>Reports &amp; Downloads</td>
+<td>Document</td>
+<td>Research Evidence, Downloads</td>
+</tr>
+<tr>
+<td>About &amp; Help</td>
+<td>Info</td>
+<td>About, Limitations &amp; Interpretation</td>
+</tr>
+</tbody>
+</table>
+<p>Those are the twelve screens in the <code>screenshots/</code> folder. The current app groups them into seven sections; the screenshots were captured from the earlier twelve-page layout.</p>
+<h3>The persistent app shell</h3>
+<ul>
+<li><strong>Sidebar brand:</strong> Zimbabwe flag, "Food-Price Stress", "Zimbabwe research".</li>
+<li><strong>Sidebar navigation:</strong> the seven sections with icons.</li>
+<li><strong>Sidebar footer:</strong> a research-prototype disclaimer on every page.</li>
+<li><strong>Top app bar:</strong> project title and two real, artefact-derived values — latest data month and panel row count.</li>
+<li><strong>Page header:</strong> section title, subtitle, and (on sub-pages) a provenance line naming the files behind the page.</li>
+</ul>
+<h3>How navigation works technically</h3>
+<p><code>dashboard/app.py</code> is a router. It defines the sections, renders the sidebar radio, and imports only the active page module. Each page module exposes a single <code>render()</code> function. This keeps the app fast and means a broken page cannot take down the whole dashboard.</p>
+
+<h1>3. Page-by-page walkthrough</h1>
+<h2>3.1 Home</h2>
+<h3>What it shows</h3>
+<ul>
+<li>Two top cards: <strong>Latest data</strong> month and the <strong>latest scored holdout</strong> month.</li>
+<li>Four KPI cards: datasets integrated, records combined, latest available month, model used.</li>
+<li>A <strong>district choropleth</strong> of Zimbabwe, with controls for <strong>Target</strong> (Y1 or Y2) and <strong>District metric</strong> (mean predicted probability or observed stress share).</li>
+<li>A <strong>top-five highest estimated risk</strong> list beside the map, with risk badges.</li>
+<li>A <strong>Food-Price Stress Summary</strong> panel: mean holdout score, risk band, share of scored cells at or above 0.50, and the training prevalence.</li>
+<li>A <strong>monthly trend line</strong> of the mean holdout score.</li>
+<li>A bottom row: Key Insights, Top Districts bar chart, Data Integration Pipeline status, and a metadata strip.</li>
+</ul>
+<h3>What it is for</h3>
+<p>A one-screen situational summary: what data exists, what the model scored, and where estimated stress is highest.</p>
+<h3>What to say</h3>
+<blockquote>
+<p>"Home is the executive overview. It answers three questions: what data do we have, what did the model score, and where is estimated stress highest? The map shows historical holdout scores aggregated by district. It is not a live forecast, and it is not household food insecurity — it is market-price stress estimated by the model."</p>
+</blockquote>
+<h3>The data behind it</h3>
+<ul>
+<li>Panel: <code>data_processed/panel_usdprice.parquet</code> (20,530 rows, 2010-01 to 2026-05).</li>
+<li>Predictions: <code>artifacts/preds_T1_usd_y1.parquet</code> or <code>preds_T2_usd_y2.parquet</code>.</li>
+<li>Boundaries: <code>raw/geo/zwe_adm2_geoboundaries.geojson</code>.</li>
+<li>Model cards: <code>models/*.meta.json</code>.</li>
+</ul>
+<h3>Things to be precise about</h3>
+<ul>
+<li><strong>Risk badges are relative, not official.</strong> <code>HIGH</code> means at least max(2 × training prevalence, prevalence + 0.15); <code>ELEVATED</code> means at least 1.3 × prevalence; <code>ABOVE BASELINE</code> means at least prevalence; otherwise <code>BELOW BASELINE</code>.</li>
+<li><strong>The map is not a household measure.</strong> A district is coloured only if it has scored market rows with a name matching the boundary file.</li>
+<li><strong>Month filtering is done through the Chart filters.</strong> Month, district, category, commodity and market selections apply consistently to the map, the summary, the ranking and the trend. Leaving a field empty includes every value.</li>
+</ul>
+
+<h2>3.2 Make a Prediction (Prediction Studio)</h2>
+<h3>What it shows</h3>
+<p>A model-target selector at the top, then four tabs:</p>
+<ol>
+<li><strong>Market Calculator</strong> — enter the <strong>observation month</strong> (e.g. October), the price in that month, the price in the previous two months, the price three months back, the currency, the peer median for the observation month and the weather condition. The model predicts stress for the <strong>next month</strong> after the observation (e.g. November). The calculator derives returns, SPI, lags and rolling returns, seasonality from the target month and rainfall features, then scores both the Y2 and Y1 models. A button can load a real example from the panel for the chosen district and commodity. You can test past months (retrospectively) or build a next-month forecast using current observations.</li>
+<li><strong>Advanced Technical Mode</strong> — direct editing of the 15 numeric and 2 categorical features, with the option to load a real example from the latest eligible panel month.</li>
+<li><strong>CSV Batch Prediction</strong> — download a template, upload a CSV, score every row, download the scored file.</li>
+<li><strong>Input Schema &amp; Feature Quality</strong> — lists the exact features the persisted model expects.</li>
+</ol>
+<h3>What the calculator computes</h3>
+<p>From the everyday inputs, it derives:</p>
+<ul>
+<li>month-over-month return from the observation-month and previous-month prices (t vs t-1);</li>
+<li>lagged returns from t-1 vs t-2 and t-2 vs t-3;</li>
+<li>a standardised return z-score using a district volatility and drift assumption;</li>
+<li>the Spatial Price Index (SPI) = observation-month price ÷ observation-month peer median;</li>
+<li>lagged and rolling return features;</li>
+<li>rainfall anomaly and lag features from the selected weather condition;</li>
+<li>seasonal harmonic features from the <strong>target month</strong> (t+1), not the wall-clock month;</li>
+<li>a climate-price interaction term.</li>
+</ul>
+<p>Set the observation month to the most recent month you have data for and the model predicts stress in <strong>t+1</strong>. You can also set an earlier observation month to test the model retrospectively against known outcomes. The model always answers: <em>given conditions in month t, what is the probability of stress in month t+1?</em></p>
+<p>The resulting 17-feature row is passed to the saved <code>HistGradientBoostingClassifier</code> pipeline. The page returns:</p>
+<ul>
+<li>four technical metric cards (observed change, SPI, rainfall anomaly, interaction);</li>
+<li>two probability cards (Y2 and Y1) with risk bands and progress bars;</li>
+<li>a plain-English early-warning summary;</li>
+<li>three generic operational recommendations;</li>
+<li>an expander showing the exact feature vector that was scored.</li>
+</ul>
+<h3>What to say</h3>
+<blockquote>
+<p>"This page turns the model into a decision-support tool. You choose the month you want to predict for, enter that month's price, the previous two months and the peer median, and the calculator builds the same 17-feature vector used in training before asking the saved model for a probability. The Advanced tab exposes the exact feature vector for transparency."</p>
+</blockquote>
+<h3>The critical caveat</h3>
+<p>The intuitive mode still uses a few <strong>hard-coded scenario assumptions</strong> in <code>prediction_studio.py</code>: district volatility 0.18, drift 0.04, peer count 12, and log population 11.75. The lagged returns are now derived from the prices you enter, and seasonality comes from the target month you choose. Present this mode as a <strong>scenario simulator</strong>; for a fully data-derived demonstration use the <strong>Advanced Technical Mode</strong>, <strong>CSV Batch Prediction</strong>, or the persisted holdout predictions on the Model Performance pages.</p>
+<h3>The honest framing</h3>
+<blockquote>
+<p>"The calculator is a communication aid. It shows how observable market conditions map into the model's feature space. The rigorous outputs are the persisted holdout predictions on the Model Performance pages, where the inputs come from real panel rows."</p>
+</blockquote>
+
+<h2>3.3 Geographic Explorer</h2>
+<h3>What it shows</h3>
+<ul>
+<li>Target selector for all four tasks.</li>
+<li><strong>Map mode:</strong> predicted probability, predicted risk band, observed historical stress, rainfall anomaly, or data coverage.</li>
+<li>Filters: month, district, category, commodity, and a probability threshold slider.</li>
+<li>Left: choropleth of Zimbabwe's districts using OpenStreetMap tiles.</li>
+<li>Right: top-12 district risk ranking with badges.</li>
+<li>Bottom: district aggregate table and two CSV downloads.</li>
+</ul>
+<h3>What it is for</h3>
+<p>Spatial analysis: where is estimated stress concentrated, and how does that change by target, mode and threshold?</p>
+<h3>What to say</h3>
+<blockquote>
+<p>"This page answers 'where?'. It shows the spatial concentration of estimated stress. Districts without scored rows are left uncoloured — absence from the map is a coverage artefact, not evidence of low risk. The values are market-level model outputs, not a household food-security measure."</p>
+</blockquote>
+<h3>The data behind it</h3>
+<p>District aggregates are computed from the stored prediction files. Rainfall-anomaly mode merges the panel's district rainfall anomaly. Coverage mode colours by the number of scored rows.</p>
+
+<h2>3.4 Data &amp; Integration — Dataset Catalogue</h2>
+<h3>What it shows</h3>
+<ul>
+<li>A six-stage <strong>pipeline overview</strong>: raw sources → market-district crosswalk → rainfall features → model-ready panels → persisted models → prediction artefacts. Each stage has an availability dot and the expected file paths.</li>
+<li>A searchable <strong>artefact catalogue</strong> with stage, path, format, rows, columns, date range, size, modified time, status and purpose.</li>
+<li>A <strong>dataset preview</strong> for selected files: dimensions, date range, column selection, a 200-row sample, missingness and duplicate counts.</li>
+<li><strong>Integration completeness</strong> metrics with explicit numerators and denominators.</li>
+<li><strong>Data lineage and caveats.</strong></li>
+</ul>
+<h3>What to say</h3>
+<blockquote>
+<p>"This is the reproducibility page. Every dataset in the project is catalogued with its real path, size, row count, date range and status. It shows the journey from 28,168 raw price rows to 20,530 model-ready food cells, and it states the eight markets that could not be geospatially matched instead of inventing coordinates."</p>
+</blockquote>
+<h3>Integration numbers</h3>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Raw price records integrated</td>
+<td>28,168</td>
+</tr>
+<tr>
+<td>Monthly food cells</td>
+<td>20,530</td>
+</tr>
+<tr>
+<td>Markets matched to a district</td>
+<td>327</td>
+</tr>
+<tr>
+<td>Markets unmatched</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Y2-labelable cells</td>
+<td>12,635 of 20,530 (61.5%)</td>
+</tr>
+<tr>
+<td>Y1-labelable cells</td>
+<td>5,429 of 20,530 (26.4%)</td>
+</tr>
+</tbody>
+</table>
+<p>The eight unmatched markets are Dulibadzimu Market, Kombai, Mandava, Mucheke, Murombedzi, Plumtree town, Renkini Bus Terminus and Tshovani. They are preserved for national baseline calculations but excluded from district-level climate merges and maps.</p>
+
+<h2>3.5 Data &amp; Integration — Coverage &amp; Quality</h2>
+<h3>What it shows</h3>
+<ul>
+<li>Eight KPI cards: total records, unique markets, unique commodities, district coverage, date coverage, Y1 labelability, Y2 labelability, mean missing rate.</li>
+<li>Chart filters for the visual tabs.</li>
+<li>Five tabs: coverage over time, category/currency/district mix, missingness, labelability by month, and a field-quality table with quality rules and flags.</li>
+<li>Documented data-quality notes.</li>
+</ul>
+<h3>What to say</h3>
+<blockquote>
+<p>"This page audits the data before modelling. It shows where coverage is thin, how many cells can actually be labelled for next month, and which fields have quality flags. Missing values are reported, never imputed, in the dashboard. Labelability falls at the end of the series because the next month has not been observed yet."</p>
+</blockquote>
+<h3>Numbers to remember</h3>
+<ul>
+<li>20,530 food cells; 335 markets; 26 commodities; 79 districts with price data.</li>
+<li>Date coverage: 2010-01 to 2026-05.</li>
+<li>Y1 labelable: 26.4% (5,429 cells).</li>
+<li>Y2 labelable: 61.5% (12,635 cells).</li>
+<li>Mean missing rate: 12.4%.</li>
+</ul>
+<p>The performance gap between Y2 and Y1 starts here: Y2 has more than twice as many usable labelled cells.</p>
+
+<h2>3.6 Data &amp; Integration — Price Trends</h2>
+<h3>What it shows</h3>
+<ul>
+<li>Price-base switch: <strong>USD converted</strong> or <strong>nominal within currency</strong>.</li>
+<li>Filters: months, category, district, commodity, market, and median or mean aggregation.</li>
+<li>Seven tabs: by category, by commodity, by district/market, distribution, month-over-month change, indexed series (first selected month = 100), and the filtered data table with CSV download.</li>
+</ul>
+<h3>What to say</h3>
+<blockquote>
+<p>"This is exploratory price analysis. The important methodological choice is that USD and nominal local-currency series are kept separate, because they represent different monetary regimes and mixing them would create misleading trends. Nothing is interpolated across missing months."</p>
+</blockquote>
+<h3>Why the separation matters</h3>
+<p>Zimbabwe moved between currency regimes during the study period. A nominal ZWL price and a USD price are not the same measurement. The dashboard never puts them on one axis; it makes the user choose a base first.</p>
+
+<h2>3.7 Data &amp; Integration — Rainfall &amp; Climate</h2>
+<h3>What it shows</h3>
+<ul>
+<li>KPIs: rainfall district-month observations, date range, districts in the panel.</li>
+<li>Five tabs: rainfall anomalies over time, seasonal climatology by district, lead-lag correlations, district coverage, and raw data tables.</li>
+<li>The lead-lag tab shows Pearson and Spearman correlations between rainfall at lags 0–3 months and next-month returns, for both price bases.</li>
+</ul>
+<h3>What to say</h3>
+<blockquote>
+<p>"Rainfall is treated as an indirect predictor. The strongest association is at a one-month lag, around r = -0.11 in USD and -0.12 nominal. That is statistically detectable but weak, so I present it as association, not causation. Rainfall features still matter: the ablation showed removing them hurts Y1 more than Y2."</p>
+</blockquote>
+<h3>Numbers to memorise</h3>
+<ul>
+<li>USD price base, lag 1: Pearson r = <strong>-0.1117</strong>, Spearman ρ = <strong>-0.1338</strong>.</li>
+<li>Nominal price base, lag 1: Pearson r = <strong>-0.1244</strong>, Spearman ρ = <strong>-0.1347</strong>.</li>
+<li>Climatology baseline: 1981–2015, by district and calendar month.</li>
+<li>1,080 district-by-calendar-month climatology reference points (90 districts × 12 months).</li>
+</ul>
+<h3>Why it is in the model even though weak</h3>
+<p>The ablation in Chapter 4 shows:</p>
+<ul>
+<li>T2 (Y2): removing rainfall leaves ROC-AUC essentially unchanged (0.8456 → 0.8469), because spatial features dominate.</li>
+<li>T1 (Y1): removing rainfall drops ROC-AUC from 0.5886 to 0.5105, close to chance.</li>
+</ul>
+<p>That is a nuanced, defensible story: rainfall is not a strong standalone driver of spatial stress, but it carries signal for temporal return surges.</p>
+
+<h2>3.8 Model Performance — Overview</h2>
+<h3>What it shows</h3>
+<ul>
+<li>Task selector T1–T4.</li>
+<li>Four KPIs: best holdout ROC-AUC, PR-AUC, balanced accuracy and Brier score.</li>
+<li>A model-and-validation-boundaries card: estimator, training boundary, holdout start, number of features, training rows and prevalence.</li>
+<li>Seven tabs:
+  1. <strong>Comparison</strong> — metric table and charts by model and split.
+  2. <strong>Confusion matrix</strong> — at the reported threshold.
+  3. <strong>Curves</strong> — ROC and precision-recall figures.
+  4. <strong>Calibration</strong> — predicted probability versus observed frequency.
+  5. <strong>Importance</strong> — permutation importance where available.
+  6. <strong>Threshold and robustness</strong> — threshold sensitivity, bootstrap confidence intervals.
+  7. <strong>Full table</strong> — all metric rows for the selected task, with CSV download.</li>
+</ul>
+<h3>What to say</h3>
+<blockquote>
+<p>"This is the transparent evaluation page. Cross-validation and the final forward holdout are always shown separately. Baselines — majority and persistence — are included so the examiner can see whether the ML actually adds value. Y1 and Y2 are different tasks and their scores are not comparable."</p>
+</blockquote>
+<h3>Forward-holdout numbers (HistGradientBoosting)</h3>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>ROC-AUC</th>
+<th>PR-AUC</th>
+<th>Precision</th>
+<th>Recall</th>
+<th>Specificity</th>
+<th>Brier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T1 USD Y1</td>
+<td>0.583</td>
+<td>0.440</td>
+<td>0.111</td>
+<td>0.667</td>
+<td>0.351</td>
+<td>0.0847</td>
+</tr>
+<tr>
+<td>T2 USD Y2</td>
+<td><strong>0.883</strong></td>
+<td>0.546</td>
+<td>0.656</td>
+<td>0.583</td>
+<td>0.947</td>
+<td>0.0877</td>
+</tr>
+<tr>
+<td>T3 Nominal Y1</td>
+<td>0.592</td>
+<td>0.275</td>
+<td>0.113</td>
+<td>0.667</td>
+<td>0.365</td>
+<td>0.0939</td>
+</tr>
+<tr>
+<td>T4 Nominal Y2</td>
+<td>0.876</td>
+<td>0.454</td>
+<td>0.522</td>
+<td>0.462</td>
+<td>0.950</td>
+<td>0.0710</td>
+</tr>
+</tbody>
+</table>
+<p>Also know:</p>
+<ul>
+<li><strong>T1 XGBoost</strong> has the highest Y1 holdout ROC-AUC at <strong>0.641</strong>, but precision is only <strong>0.101</strong> — roughly nine out of ten alerts would be false. The saved Y1 model is HistGBM.</li>
+<li><strong>T4 XGBoost</strong> has the highest nominal Y2 ROC-AUC at <strong>0.899</strong>, but HistGBM has better Brier (0.071 vs 0.101).</li>
+<li>Cross-validation, pooled out-of-fold: T2 HistGBM <strong>0.8145</strong>; T1 HistGBM <strong>0.6077</strong>.</li>
+<li>Market-clustered bootstrap, T2 HistGBM: <strong>95% CI [0.788, 0.919]</strong>, entirely above chance.</li>
+<li>Market-clustered bootstrap, T1 HistGBM: lower bound around <strong>0.49</strong>, so the interval can include chance.</li>
+</ul>
+<h3>The honest Y1 answer</h3>
+<p>Y1 is a hard, low-signal task. There are only nine positive events in the T1 holdout. The model can achieve high recall only by generating many false alarms. The dashboard reports this instead of hiding it. That is a strength, not a weakness, in a research defense.</p>
+
+<h2>3.9 Model Performance — Holdout Predictions</h2>
+<h3>What it shows</h3>
+<ul>
+<li>Task selector and model selector (majority, persistence, logistic, HistGBM, XGBoost).</li>
+<li>Filters: month, district, category, commodity, market, and a decision-threshold slider.</li>
+<li>KPIs: mean score, share flagged at the threshold, observed stress, and row count.</li>
+<li>Five tabs: ranked predictions, score distribution with a threshold line, observed-versus-predicted confusion matrix recomputed live, historical district map, and the filtered data table with CSV download.</li>
+</ul>
+<h3>What to say</h3>
+<blockquote>
+<p>"This page lets the examiner inspect the actual saved out-of-sample scores, not just aggregate metrics. You can move the decision threshold and watch the confusion matrix recompute. These are historical holdout scores, not live forecasts."</p>
+</blockquote>
+<h3>Why this page exists</h3>
+<p>Metrics can hide behaviour. This page shows the individual scored cells, their ranking, their distribution and their errors. It is the transparency check on the aggregate numbers.</p>
+
+<h2>3.10 Model Performance — Statistical Analysis</h2>
+<h3>What it shows</h3>
+<ul>
+<li>Dataset selector: USD panel, nominal panel, rainfall anomalies, or the market-district crosswalk.</li>
+<li>Context KPIs and filters (date range, district, category, currency, commodity, market).</li>
+<li>Seven tabs:
+  1. <strong>Overview</strong> — descriptive statistics and a downloadable table.
+  2. <strong>Distributions</strong> — histogram, box plot, and violin plots by group.
+  3. <strong>Trends over time</strong> — aggregation choice, rolling window, seasonality, and a Spearman trend test.
+  4. <strong>Group comparisons</strong> — mean by group, box plots, group summary table.
+  5. <strong>Correlations</strong> — Pearson or Spearman, heatmap, top pairs, scatter plot with optional OLS line.
+  6. <strong>Missingness and quality</strong> — missingness by column and month, duplicate rows, constant columns.
+  7. <strong>Statistical tests</strong> — Welch t-test, Mann–Whitney U, one-way ANOVA or Kruskal–Wallis, with effect size and confidence interval where available.</li>
+</ul>
+<h3>What to say</h3>
+<blockquote>
+<p>"This is descriptive and inferential statistics on the panel itself, not model validation. Tests only run when sample sizes and group structure permit, and every result is shown with its assumptions and caveats. This is where the lead-lag and group-difference evidence lives."</p>
+</blockquote>
+<h3>Why it matters in the defense</h3>
+<p>It shows you can do more than fit models: you can describe the data, test assumptions, quantify uncertainty and avoid over-claiming. The page explicitly states that a p-value is not the probability that the null hypothesis is true, and that significance is not practical importance.</p>
+
+<h2>3.11 Reports &amp; Downloads — Research Evidence</h2>
+<h3>What it shows</h3>
+<ul>
+<li>Five provisional research objectives, each mapped to:</li>
+<li>a plain-language claim;</li>
+<li>the concrete artefacts that support it;</li>
+<li>the dashboard page that displays it.</li>
+<li>Status cards showing how many referenced artefacts exist.</li>
+<li>A searchable evidence matrix with objective, claim, artefact path, dashboard location and status.</li>
+<li>Counts of evidenced links and robustness reports.</li>
+</ul>
+<h3>What to say</h3>
+<blockquote>
+<p>"This page maps each research objective to the artefact that proves it and the dashboard page that displays it. It makes the project auditable: an examiner can go from claim to file to screen."</p>
+</blockquote>
+<h3>Be upfront</h3>
+<p>The page itself warns that the objective wording is <strong>provisional</strong>, because the repository does not contain a machine-readable list of verbatim dissertation objectives. Say that before you are asked. Do not quote the groupings as exact dissertation wording.</p>
+<h3>The five objectives</h3>
+<table>
+<thead>
+<tr>
+<th>Objective</th>
+<th>Implemented in</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Data integration</td>
+<td>Data &amp; Integration</td>
+</tr>
+<tr>
+<td>Target construction</td>
+<td>Coverage &amp; Quality, Statistical Analysis</td>
+</tr>
+<tr>
+<td>Predictive modelling</td>
+<td>Model Performance, Prediction Studio</td>
+</tr>
+<tr>
+<td>Geographic analysis</td>
+<td>Geographic Explorer, Home</td>
+</tr>
+<tr>
+<td>Reproducibility and limitations</td>
+<td>Research Evidence, Limitations &amp; Interpretation</td>
+</tr>
+</tbody>
+</table>
+
+<h2>3.12 Reports &amp; Downloads — Downloads</h2>
+<h3>What it shows</h3>
+<ul>
+<li>Direct download lists for <code>artifacts/</code>, <code>reports/</code>, <code>figures/</code> and <code>models/</code>.</li>
+<li>File name, size, and a download button.</li>
+<li>Files over 40 MB are listed but not offered as inline downloads.</li>
+</ul>
+<h3>What to say</h3>
+<blockquote>
+<p>"This is the reproducibility exit. The examiner can download the metrics, figures, reports and saved models directly from the app rather than taking my word for the results."</p>
+</blockquote>
+
+<h2>3.13 About &amp; Help — About</h2>
+<h3>What it shows</h3>
+<ul>
+<li>Project overview, scope statement and the research-prototype disclaimer.</li>
+<li>A short statement that every figure is read from project artefacts.</li>
+</ul>
+<h3>What to say</h3>
+<blockquote>
+<p>"The About page states the scope up front: academic research prototype, not an operational early-warning system, and not a household food-security assessment."</p>
+</blockquote>
+
+<h2>3.14 About &amp; Help — Limitations &amp; Interpretation</h2>
+<h3>What it shows</h3>
+<p>An eleven-item limitation register. Each item has:</p>
+<ul>
+<li>a severity badge (Serious, Caveat, General caution);</li>
+<li>a plain-language explanation;</li>
+<li>the evidence or source;</li>
+<li>the pages it affects;</li>
+<li>interpretation guidance.</li>
+</ul>
+<p>The eleven limitations:</p>
+<ol>
+<li>No prospective validation.</li>
+<li>The latest snapshot is local, not live.</li>
+<li>Sparse market-commodity series.</li>
+<li>Currency-regime differences.</li>
+<li>Missing or incomplete source files.</li>
+<li>Missing geographic coordinates.</li>
+<li>Weak rainfall association.</li>
+<li>Y2 is partly persistence-driven.</li>
+<li>Model uncertainty.</li>
+<li>Market stress is not household food insecurity.</li>
+<li>Outputs are not official warnings.</li>
+</ol>
+<h3>What to say</h3>
+<blockquote>
+<p>"This is deliberately the most honest page. It lists every material limitation: no prospective validation, a local snapshot rather than live data, sparse series, currency-regime differences, missing coordinates, weak rainfall association, Y2's persistence component, model uncertainty, and the difference between market price stress and household food insecurity. It also states what each limitation means for interpretation."</p>
+</blockquote>
+<p>This is your strongest page in a viva. Quote it instead of improvising.</p>
+
+<h1>4. Architecture: how the dashboard is built</h1>
+<h3>The dashboard layer</h3>
+<table>
+<thead>
+<tr>
+<th>Path</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>dashboard/app.py</code></td>
+<td>Router: sidebar, sections, sub-page switcher, static Downloads and About pages.</td>
+</tr>
+<tr>
+<td><code>dashboard/pages/*.py</code></td>
+<td>One <code>render()</code> function per screen.</td>
+</tr>
+<tr>
+<td><code>dashboard/components/layout.py</code></td>
+<td>Theme CSS, app bar, page headers, cards, KPI rows, badges, risk bands.</td>
+</tr>
+<tr>
+<td><code>dashboard/components/charts.py</code></td>
+<td>Reusable Plotly figure builders: line, bar, histogram, box, violin, heatmap, scatter, choropleth, confusion matrix.</td>
+</tr>
+<tr>
+<td><code>dashboard/components/filters.py</code></td>
+<td>Shared chart filter controls.</td>
+</tr>
+<tr>
+<td><code>dashboard/utils/loaders.py</code></td>
+<td>Cached file access and the artefact catalogue. Missing file returns an empty frame, never fake data.</td>
+</tr>
+<tr>
+<td><code>dashboard/utils/statistics.py</code></td>
+<td>Descriptive statistics, correlations, hypothesis tests.</td>
+</tr>
+<tr>
+<td><code>dashboard/utils/formatting.py</code></td>
+<td>Number, percentage and date formatting.</td>
+</tr>
+<tr>
+<td><code>config/targets.yml</code></td>
+<td>Single source of truth for units, price bases, targets, rainfall, validation and tuning.</td>
+</tr>
+</tbody>
+</table>
+<h3>The pipeline layer</h3>
+<table>
+<thead>
+<tr>
+<th>Script</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>src/build_rainfall.py</code></td>
+<td>CHIRPS raster to district-month rainfall, climatology and z-anomalies.</td>
+</tr>
+<tr>
+<td><code>src/build_dataset.py</code></td>
+<td>Price cleaning, monthly aggregation, crosswalk, features and labels.</td>
+</tr>
+<tr>
+<td><code>src/tune_optuna.py</code></td>
+<td>Bayesian hyperparameter search on training folds only.</td>
+</tr>
+<tr>
+<td><code>src/train.py</code></td>
+<td>Model zoo, expanding-window CV, threshold tuning and holdout evaluation.</td>
+</tr>
+<tr>
+<td><code>src/fit_final_model.py</code></td>
+<td>Fits and persists the final models and metadata.</td>
+</tr>
+<tr>
+<td><code>src/analysis.py</code></td>
+<td>Lead-lag correlations.</td>
+</tr>
+<tr>
+<td><code>src/robustness.py</code></td>
+<td>Ablation, bootstrap, sensitivity and stability diagnostics.</td>
+</tr>
+<tr>
+<td><code>src/figures_chapter4.py</code></td>
+<td>Chapter 4 figures.</td>
+</tr>
+</tbody>
+</table>
+<h3>The artefact layer</h3>
+<ul>
+<li><code>data_processed/</code> — panels, rainfall features, crosswalk.</li>
+<li><code>artifacts/</code> — metrics, predictions, folds, Optuna results, run metadata.</li>
+<li><code>models/</code> — <code>*.joblib</code> pipelines and <code>*.meta.json</code> model cards.</li>
+<li><code>figures/</code> — pre-generated evaluation figures.</li>
+<li><code>reports/</code> — robustness tables and narrative reports.</li>
+</ul>
+<h3>Why this architecture is defensible</h3>
+<ol>
+<li><strong>Separation of concerns.</strong> Data processing, modelling and presentation are separate. The dashboard cannot change a model or a metric.</li>
+<li><strong>Traceability.</strong> Every page prints its provenance. Every metric can be traced to a CSV or Parquet file.</li>
+<li><strong>No fabrication.</strong> Missing artefacts produce an explicit unavailable state. The UI never substitutes a plausible-looking number.</li>
+<li><strong>Reproducibility.</strong> The pipeline is deterministic given the config and seed; the dashboard reads the outputs.</li>
+<li><strong>Caching.</strong> Loaders use Streamlit caching keyed on file modification time, so the app is responsive without becoming stale.</li>
+</ol>
+
+<h1>5. Numbers to memorise</h1>
+<h3>Data</h3>
+<table>
+<thead>
+<tr>
+<th>Quantity</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Raw WFP price rows</td>
+<td>28,168</td>
+</tr>
+<tr>
+<td>Non-food rows removed</td>
+<td>7,638</td>
+</tr>
+<tr>
+<td>Monthly food cells</td>
+<td>20,530</td>
+</tr>
+<tr>
+<td>Markets</td>
+<td>335</td>
+</tr>
+<tr>
+<td>Markets geospatially matched</td>
+<td>327</td>
+</tr>
+<tr>
+<td>Markets unmatched</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Commodities</td>
+<td>26</td>
+</tr>
+<tr>
+<td>Food categories</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Districts with price data</td>
+<td>79</td>
+</tr>
+<tr>
+<td>Date range</td>
+<td>2010-01 to 2026-05</td>
+</tr>
+<tr>
+<td>Y1 labelable cells</td>
+<td>5,429 (26.4%)</td>
+</tr>
+<tr>
+<td>Y2 labelable cells</td>
+<td>12,635 (61.5%)</td>
+</tr>
+<tr>
+<td>Y1 prevalence</td>
+<td>about 15%</td>
+</tr>
+<tr>
+<td>Y2 prevalence</td>
+<td>about 16%</td>
+</tr>
+<tr>
+<td>Mean missing rate</td>
+<td>12.4%</td>
+</tr>
+</tbody>
+</table>
+<h3>Model metadata</h3>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Trained through</th>
+<th>Holdout from</th>
+<th>Training rows</th>
+<th>Training prevalence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Y1 return HistGBM (USD)</td>
+<td>2025-04</td>
+<td>2025-05</td>
+<td>5,346</td>
+<td>14.9%</td>
+</tr>
+<tr>
+<td>Y2 peer HistGBM (USD)</td>
+<td>2024-10</td>
+<td>2024-12</td>
+<td>12,390</td>
+<td>16.3%</td>
+</tr>
+</tbody>
+</table>
+<h3>Forward-holdout performance</h3>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Model</th>
+<th>ROC-AUC</th>
+<th>PR-AUC</th>
+<th>Precision</th>
+<th>Recall</th>
+<th>Brier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T1 USD Y1</td>
+<td>HistGBM</td>
+<td>0.583</td>
+<td>0.440</td>
+<td>0.111</td>
+<td>0.667</td>
+<td>0.0847</td>
+</tr>
+<tr>
+<td>T1 USD Y1</td>
+<td>XGBoost (best AUC)</td>
+<td>0.641</td>
+<td>0.295</td>
+<td>0.101</td>
+<td>0.889</td>
+<td>0.1415</td>
+</tr>
+<tr>
+<td>T2 USD Y2</td>
+<td>HistGBM</td>
+<td><strong>0.883</strong></td>
+<td>0.546</td>
+<td>0.656</td>
+<td>0.583</td>
+<td>0.0877</td>
+</tr>
+<tr>
+<td>T3 Nominal Y1</td>
+<td>HistGBM</td>
+<td>0.592</td>
+<td>0.275</td>
+<td>0.113</td>
+<td>0.667</td>
+<td>0.0939</td>
+</tr>
+<tr>
+<td>T4 Nominal Y2</td>
+<td>HistGBM</td>
+<td>0.876</td>
+<td>0.454</td>
+<td>0.522</td>
+<td>0.462</td>
+<td>0.0710</td>
+</tr>
+<tr>
+<td>T4 Nominal Y2</td>
+<td>XGBoost (best AUC)</td>
+<td>0.899</td>
+<td>0.477</td>
+<td>0.329</td>
+<td>0.885</td>
+<td>0.1013</td>
+</tr>
+</tbody>
+</table>
+<h3>Validation and uncertainty</h3>
+<ul>
+<li>Cross-validation: 5-fold expanding window, pooled out-of-fold.</li>
+<li>Final holdout: 12 forward months, never used in training, tuning or threshold selection.</li>
+<li>T2 HistGBM CV ROC-AUC: 0.8145.</li>
+<li>T2 HistGBM holdout ROC-AUC: 0.8831.</li>
+<li>T2 HistGBM bootstrap 95% market-clustered CI: [0.788, 0.919].</li>
+<li>T1 HistGBM bootstrap CI lower bound: about 0.49, so it can include chance.</li>
+</ul>
+<h3>Rainfall lead-lag</h3>
+<ul>
+<li>USD, lag 1: Pearson r = -0.1117, Spearman ρ = -0.1338.</li>
+<li>Nominal, lag 1: Pearson r = -0.1244, Spearman ρ = -0.1347.</li>
+<li>Interpretation: weak association, not causation.</li>
+</ul>
+
+<h1>6. Glossary of terms examiners may ask about</h1>
+<p><strong>Y1 — standardised return stress.</strong> A binary label for whether the next month's log price return is at least one standard deviation above the cell's own trailing 12-month average. It captures sudden price acceleration.</p>
+<p><strong>Y2 — peer-relative stress.</strong> A binary label for whether the next month's Spatial Price Index is at least 1.20. It captures a market charging at least 20% more than its national peers for the same commodity and currency.</p>
+<p><strong>SPI — Spatial Price Index.</strong> Price divided by the contemporaneous national peer median for the same commodity and currency. It is only defined when at least five peer markets report.</p>
+<p><strong>Labelable cell.</strong> A row that has enough history or enough peers to construct a valid next-month label. Only 26.4% of rows are Y1-labelable, compared with 61.5% for Y2.</p>
+<p><strong>Prevalence.</strong> The share of labelled cells that are positive (stress). Around 15–16% for both targets. This is why accuracy is misleading and why PR-AUC, precision, recall and Brier are reported.</p>
+<p><strong>ROC-AUC.</strong> The probability that a randomly chosen positive cell is ranked above a randomly chosen negative cell. 0.5 is chance; 1.0 is perfect. It is threshold-independent.</p>
+<p><strong>PR-AUC.</strong> Area under the precision-recall curve. More informative than ROC-AUC when positives are rare.</p>
+<p><strong>Precision.</strong> Of the cells the model flags, what share are truly stressed.</p>
+<p><strong>Recall.</strong> Of the truly stressed cells, what share the model flags.</p>
+<p><strong>Specificity.</strong> Of the non-stressed cells, what share the model correctly leaves unflagged.</p>
+<p><strong>F1.</strong> The harmonic mean of precision and recall.</p>
+<p><strong>Brier score.</strong> Mean squared difference between predicted probability and observed outcome. Lower is better. It rewards calibration, not just ranking.</p>
+<p><strong>Calibration.</strong> Whether a predicted 30% risk actually corresponds to about 30% observed frequency. A model can rank well but be badly calibrated.</p>
+<p><strong>Expanding-window cross-validation.</strong> Time-ordered folds where the training window grows and the validation window moves forward. It prevents training on the future.</p>
+<p><strong>Forward holdout.</strong> The final 12 months, set aside before any training, tuning or threshold selection. It is the most honest estimate of out-of-sample performance.</p>
+<p><strong>Persistence baseline.</strong> A heuristic that predicts next month will be the same as this month. It is a strong baseline for Y2 because spatial stress is persistent.</p>
+<p><strong>Permutation importance.</strong> The drop in ROC-AUC when a feature is randomly shuffled. It measures how much the model relies on that feature out of sample.</p>
+<p><strong>Market-clustered bootstrap.</strong> Resampling whole markets rather than individual rows, to respect the fact that observations within a market are correlated. It gives more honest confidence intervals.</p>
+<p><strong>Ablation.</strong> Removing a group of features and re-evaluating, to see how much that group contributes. The project uses it for rainfall and peer features.</p>
+
+<h1>7. A six-minute demonstration script</h1>
+<h3>0:00–0:45 — Open with the problem and the architecture</h3>
+<blockquote>
+<p>"This is a research dashboard for predicting market food-price stress in Zimbabwe. The pipeline ingests WFP prices, CHIRPS rainfall, district boundaries and population data, builds a model-ready panel, and trains and evaluates several models. The dashboard is the evidence layer: it lets you inspect the data, the targets, the spatial patterns, the model comparison and the limitations without rerunning the code."</p>
+</blockquote>
+<h3>0:45–2:00 — Home</h3>
+<blockquote>
+<p>"This is the one-screen situational summary. Latest data is May 2026. We have 20,530 monthly food cells from 28,168 raw price records and six integrated sources. The map shows model-estimated market-price stress by district. The highest-risk districts are ranked relative to training prevalence. The summary panel shows the mean holdout score and the share of cells at or above 0.50."</p>
+</blockquote>
+<p>Point out that the map is a model output, not a household measure.</p>
+<h3>2:00–3:15 — Prediction Studio</h3>
+<blockquote>
+<p>"I set the observation month to October and enter the October, September and August prices, the October peer median and the rainfall condition. The model predicts stress for November (next month). The system computes the returns, SPI, lags and seasonality from those inputs and asks the saved model for a probability. Here is the Y2 probability and the plain-English summary. The Advanced tab shows the exact 17-feature vector that was scored."</p>
+</blockquote>
+<p>Mention the scenario-assumption caveat in one sentence, then move on.</p>
+<h3>3:15–4:00 — Geographic Explorer</h3>
+<blockquote>
+<p>"I can switch target, switch map mode and change the probability threshold. The ranking updates. Uncoloured districts simply have no scored rows — that is a coverage fact, not a risk judgement."</p>
+</blockquote>
+<h3>4:00–4:45 — Data &amp; Integration and Coverage</h3>
+<blockquote>
+<p>"This traces 28,168 raw rows to 20,530 food cells. 327 of 335 markets matched to a district; eight are flagged, not guessed. Y2 has 12,635 labelable cells versus 5,429 for Y1, which is the main reason performance differs."</p>
+</blockquote>
+<h3>4:45–5:45 — Model Performance</h3>
+<blockquote>
+<p>"For T2 USD Y2, HistGBM reaches 0.883 holdout ROC-AUC, 0.656 precision, 0.947 specificity and a Brier score of 0.088. For T1 USD Y1, performance is much weaker: 0.583, and the bootstrap interval can include chance. Baselines are shown so you can see whether the ML adds value. Here are the calibration, confusion matrix and threshold sensitivity."</p>
+</blockquote>
+<h3>5:45–6:30 — Limitations and close</h3>
+<blockquote>
+<p>"I want to be explicit about the limits. This is retrospective, not prospectively validated. The snapshot is local, not live. Rainfall association is weak. Y2 is partly persistence. And market price stress is not household food insecurity. The next steps would be prospective validation, more complete surveys, a hierarchical spatial model and external validation against household data."</p>
+</blockquote>
+
+<h1>8. Viva questions and model answers</h1>
+<h3>"Is this real-time or live?"</h3>
+<p>No. It reads a local snapshot produced by the pipeline. "Latest data" means the newest month in that snapshot (currently May 2026), not a live feed.</p>
+<h3>"How did you prevent data leakage?"</h3>
+<p>Expanding-window cross-validation; the final 12 months are held out and untouched; features use only information available at time t; labels use t+1; imputers and scalers are fitted inside each fold; Optuna and threshold selection never see the holdout.</p>
+<h3>"Why is Y2 so much better than Y1?"</h3>
+<p>Y2 has more than twice as many labelable cells (12,635 versus 5,429), and peer-relative stress is partly persistence-driven: the current SPI is highly informative about next month's SPI. Y1 is a sudden return spike with only nine positive holdout events, so it is statistically fragile.</p>
+<h3>"What does a predicted probability mean?"</h3>
+<p>It is the model-estimated chance that a market-commodity cell will meet the next-month stress definition. It is not the probability of household food insecurity and not an official warning.</p>
+<h3>"Why do you have four tasks?"</h3>
+<p>To test whether conclusions hold across two price bases (USD versus nominal) and two definitions of stress (temporal return surge versus spatial peer premium). It is a robustness design, not four separate products.</p>
+<h3>"What is the Spatial Price Index?"</h3>
+<p>Price divided by the contemporaneous national peer median for the same commodity and currency, defined only when at least five peer markets report. SPI ≥ 1.20 means the market is at least 20% above its peers.</p>
+<h3>"Why use ROC-AUC if the classes are imbalanced?"</h3>
+<p>ROC-AUC is reported alongside PR-AUC, precision, recall, F1, specificity and Brier. The threshold is tuned by F1 on validation, not fixed at 0.5. Accuracy is deliberately not the headline.</p>
+<h3>"Why not use XGBoost everywhere if it has higher AUC on T1 and T4?"</h3>
+<p>Because AUC is not the only criterion. On T1, XGBoost's precision is about 10%, meaning nine out of ten alerts would be false. On T4, HistGBM has a materially better Brier score. The project reports the full trade-off rather than selecting the highest single number.</p>
+<h3>"Why is rainfall included if the correlation is weak?"</h3>
+<p>It is an indirect predictor. The ablation shows removing rainfall hurts Y1 substantially (about eight AUC points) but does not collapse Y2, where spatial features dominate. It is kept for interpretation and robustness, not as a causal driver.</p>
+<h3>"What are the biggest limitations?"</h3>
+<p>No prospective validation; local snapshot; sparse series and few Y1 positives; currency-regime differences; eight unmapped markets; uncertain calibration; and market stress is not household food insecurity. The Limitations page lists all of them with evidence.</p>
+<h3>"How do you know the dashboard is showing real numbers?"</h3>
+<p>Every page has a provenance line naming the file behind it. The loaders read directly from <code>artifacts/</code>, <code>data_processed/</code>, <code>models/</code>, <code>figures/</code> and <code>reports/</code>. Missing files produce an explicit unavailable state. The Downloads page lets you inspect the raw files yourself. The only displayed values that were not artefact-derived were two hard-coded AUC captions, which have now been replaced with live reads from the metrics file.</p>
+<h3>"What would you do next?"</h3>
+<p>Prospective validation; more frequent and complete market surveys; a hierarchical or spatial model; recalibration over time; external validation against household food-security data; and a formal cost-sensitive threshold policy for any operational use.</p>
+
+<h1>9. Limitations you must state</h1>
+<p>Do not wait to be asked. State these early and confidently.</p>
+<ol>
+<li><strong>Retrospective only.</strong> All metrics come from cross-validation and one forward holdout. There has been no prospective operational trial.</li>
+<li><strong>Local snapshot.</strong> The dashboard reads stored files. It does not pull live data.</li>
+<li><strong>Sparse series.</strong> Only 26.4% of cells are Y1-labelable. Short series weaken both features and evaluation.</li>
+<li><strong>Currency regimes differ.</strong> USD and nominal prices are never pooled, and nominal prices across currencies are not directly comparable.</li>
+<li><strong>Coverage gaps.</strong> Eight markets lack coordinates and cannot be mapped. Uncoloured districts are a coverage fact, not a low-risk finding.</li>
+<li><strong>Weak rainfall association.</strong> The lead-lag correlation is small and unstable. Rainfall is an indirect predictor, not a proven cause.</li>
+<li><strong>Y2 is partly persistence.</strong> Higher Y2 scores partly reflect the persistence of spatial premiums rather than independent forecasting skill.</li>
+<li><strong>Uncertainty.</strong> Probabilities carry sampling and model uncertainty. The Y1 bootstrap interval can include chance.</li>
+<li><strong>Market stress is not household food insecurity.</strong> The targets measure market prices and peer-relative premiums, not household access.</li>
+<li><strong>Not an official warning.</strong> Outputs are research evidence only.</li>
+</ol>
+
+<h1>10. Issues found and fixes applied</h1>
+<p>These were found during the full code review and corrected:</p>
+<table>
+<thead>
+<tr>
+<th>Issue</th>
+<th>Location</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Y1 holdout ROC-AUC caption showed 0.6411, which is XGBoost's score, not the saved HistGBM's 0.5826</td>
+<td><code>dashboard/pages/prediction_studio.py</code></td>
+<td>Replaced both AUC captions with live reads from <code>artifacts/metrics_all_tasks.csv</code> via a new <code>_holdout_auc()</code> helper.</td>
+</tr>
+<tr>
+<td>Threshold sensitivity table loaded a non-existent file</td>
+<td><code>dashboard/pages/model_performance.py</code></td>
+<td>Changed the filename to the existing <code>reports/phase6b_threshold_model_sensitivity.csv</code>.</td>
+</tr>
+<tr>
+<td>Research Evidence referenced four deleted files</td>
+<td><code>reports/</code> and <code>tests/</code></td>
+<td>Restored <code>phase2_target_definition.md</code>, <code>phase6b_diagnostics.md</code>, <code>phase10_qa_and_limitations.md</code> and <code>tests/run_checks.py</code> from git HEAD.</td>
+</tr>
+<tr>
+<td>Home had an unused "Prediction month" selector that changed nothing</td>
+<td><code>dashboard/pages/home.py</code></td>
+<td>Removed the redundant selector; month filtering is handled by the Chart filters, which apply to the map, summary and trend. The second top card now shows the latest scored holdout month.</td>
+</tr>
+</tbody>
+</table>
+<h3>Remaining advisories</h3>
+<ol>
+<li><strong>Recapture screenshots.</strong> The files in <code>screenshots/</code> and <code>outputs/figures/</code> show the older twelve-page layout. The live app is grouped into seven sections. If you use them in the dissertation, they will not match the demo.</li>
+<li><strong>The calculator still uses a few hard-coded scenario assumptions</strong> (district volatility, drift, peer count, log population). Present it as a scenario simulator, or use Advanced/Batch mode for fully data-derived outputs.</li>
+<li><strong><code>showErrorDetails = true</code></strong> is set in <code>.streamlit/config.toml</code>. During a live demo, an unexpected error would expose a stack trace. Consider setting it to <code>false</code>.</li>
+<li><strong>The data dictionary is unavailable.</strong> Home states this explicitly because no dictionary artefact exists. If asked, say the field-level catalogue on Data &amp; Integration is the substitute.</li>
+</ol>
+
+<h1>11. Pre-defense checklist</h1>
+<h3>The day before</h3>
+<ul>
+<li><span class="checkbox">&#9744;</span> Run the app locally: <code>streamlit run dashboard/app.py</code>.</li>
+<li><span class="checkbox">&#9744;</span> Click through all seven sections and every sub-tab once.</li>
+<li><span class="checkbox">&#9744;</span> Confirm the latest data month is what you expect.</li>
+<li><span class="checkbox">&#9744;</span> Confirm no page shows an avoidable "not available" state.</li>
+<li><span class="checkbox">&#9744;</span> Open Model Performance for T2 and confirm the headline numbers.</li>
+<li><span class="checkbox">&#9744;</span> Open Limitations and read the eleven items aloud once.</li>
+<li><span class="checkbox">&#9744;</span> Rehearse the six-minute script with a timer.</li>
+</ul>
+<h3>Ten minutes before</h3>
+<ul>
+<li><span class="checkbox">&#9744;</span> Start the app in a clean browser tab.</li>
+<li><span class="checkbox">&#9744;</span> Close anything that shows personal files or notifications.</li>
+<li><span class="checkbox">&#9744;</span> Set the browser zoom to a readable level.</li>
+<li><span class="checkbox">&#9744;</span> Have this guide open on a second screen or printed.</li>
+<li><span class="checkbox">&#9744;</span> Have the PDF and the repository folder ready for download questions.</li>
+</ul>
+<h3>The three sentences to have ready</h3>
+<ol>
+<li>"The dashboard is the evidence layer of a reproducible pipeline; it reads stored artefacts and never fabricates values."</li>
+<li>"The strongest result is the peer-relative Y2 target at 0.883 holdout ROC-AUC; the temporal Y1 target is much harder and is reported honestly as low-signal."</li>
+<li>"This is a research prototype, not an operational early-warning system, and market price stress is not household food insecurity."</li>
+</ol>
+
+<h2>Final summary</h2>
+<p>The project contributes a reproducible, leakage-aware pipeline for market food-price stress in Zimbabwe, and a dashboard that makes every stage inspectable. The strongest empirical result is the spatial peer-relative target: 0.883 forward-holdout ROC-AUC for USD Y2, with a market-clustered confidence interval that stays above chance. The weakest result is the temporal return-surge target, which is genuinely hard and is reported with its uncertainty rather than hidden.</p>
+<p>The defense should be built on three pillars:</p>
+<ol>
+<li><strong>Rigor</strong> — expanding-window validation, an untouched forward holdout, baselines, calibration, bootstrap intervals and ablations.</li>
+<li><strong>Transparency</strong> — provenance on every page, download links for every artefact, and explicit unavailable states instead of invented numbers.</li>
+<li><strong>Honesty</strong> — a dedicated limitations page, a clear distinction between market stress and household food insecurity, and no claim of operational readiness.</li>
+</ol>
+<p>Those three pillars are stronger than any single accuracy number.</p>
+</body>
+</html>

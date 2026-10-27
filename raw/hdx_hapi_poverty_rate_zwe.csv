@@ -1,0 +1,34 @@
+location_code,has_hrp,in_gho,provider_admin1_name,admin1_code,admin1_name,admin_level,mpi,headcount_ratio,intensity_of_deprivation,vulnerable_to_poverty,in_severe_poverty,reference_period_start,reference_period_end
+ZWE,False,False,,,,0,0.1564,36.0942,43.3426,27.2391,10.542,2010-01-01,2011-12-31
+ZWE,False,False,,,,0,0.13,30.2084,43.0433,27.7063,7.8232,2015-01-01,2015-12-31
+ZWE,False,False,,,,0,0.1099,25.8,42.613,26.3303,6.7702,2019-01-01,2019-12-31
+ZWE,False,False,Bulawayo,ZW10,Bulawayo,1,0.0236,5.7622,41.0418,7.9244,1.5622,2010-01-01,2011-12-31
+ZWE,False,False,Bulawayo,ZW10,Bulawayo,1,0.0066,1.7139,38.3482,7.4997,0.0,2015-01-01,2015-12-31
+ZWE,False,False,Bulawayo,ZW10,Bulawayo,1,0.0153,3.8109,40.2656,10.5239,0.3947,2019-01-01,2019-12-31
+ZWE,False,False,Harare,ZW19,Harare,1,0.0254,5.9804,42.4003,17.3711,1.2871,2010-01-01,2011-12-31
+ZWE,False,False,Harare,ZW19,Harare,1,0.0315,7.7485,40.5893,11.8464,1.245,2015-01-01,2015-12-31
+ZWE,False,False,Harare,ZW19,Harare,1,0.0188,4.6309,40.5306,13.8025,0.6001,2019-01-01,2019-12-31
+ZWE,False,False,Manicaland,ZW11,Manicaland,1,0.1733,40.2993,43.0003,29.3795,10.7068,2010-01-01,2011-12-31
+ZWE,False,False,Manicaland,ZW11,Manicaland,1,0.1609,37.3721,43.0473,26.2816,9.8324,2015-01-01,2015-12-31
+ZWE,False,False,Manicaland,ZW11,Manicaland,1,0.1386,31.8476,43.5102,29.5363,9.5889,2019-01-01,2019-12-31
+ZWE,False,False,Mashonaland Central,ZW12,Mashonaland Central,1,0.1933,43.2815,44.6552,35.0498,13.2799,2010-01-01,2011-12-31
+ZWE,False,False,Mashonaland Central,ZW12,Mashonaland Central,1,0.1785,41.8306,42.6837,33.7769,10.5903,2015-01-01,2015-12-31
+ZWE,False,False,Mashonaland Central,ZW12,Mashonaland Central,1,0.1531,35.2976,43.3659,32.3253,10.5756,2019-01-01,2019-12-31
+ZWE,False,False,Mashonaland East,ZW13,Mashonaland East,1,0.1457,35.3854,41.174,31.025,7.4406,2010-01-01,2011-12-31
+ZWE,False,False,Mashonaland East,ZW13,Mashonaland East,1,0.1085,26.2442,41.3283,30.7704,5.0409,2015-01-01,2015-12-31
+ZWE,False,False,Mashonaland East,ZW13,Mashonaland East,1,0.0999,24.1005,41.466,28.7458,5.0987,2019-01-01,2019-12-31
+ZWE,False,False,Mashonaland West,ZW14,Mashonaland West,1,0.1695,38.4662,44.0642,30.6064,11.248,2010-01-01,2011-12-31
+ZWE,False,False,Mashonaland West,ZW14,Mashonaland West,1,0.1484,34.0609,43.5685,30.1298,10.3846,2015-01-01,2015-12-31
+ZWE,False,False,Mashonaland West,ZW14,Mashonaland West,1,0.1204,28.6203,42.0804,29.8407,7.0836,2019-01-01,2019-12-31
+ZWE,False,False,Masvingo,ZW18,Masvingo,1,0.2139,50.009,42.7808,30.7804,14.4436,2010-01-01,2011-12-31
+ZWE,False,False,Masvingo,ZW18,Masvingo,1,0.1604,35.6927,44.9261,34.0906,11.0988,2015-01-01,2015-12-31
+ZWE,False,False,Masvingo,ZW18,Masvingo,1,0.1324,31.0862,42.5813,29.9457,7.9567,2019-01-01,2019-12-31
+ZWE,False,False,Matabeleland North,ZW15,Matabeleland North,1,0.2642,59.4232,44.4553,24.114,22.8968,2010-01-01,2011-12-31
+ZWE,False,False,Matabeleland North,ZW15,Matabeleland North,1,0.1811,42.5103,42.5908,38.5297,10.0784,2015-01-01,2015-12-31
+ZWE,False,False,Matabeleland North,ZW15,Matabeleland North,1,0.1913,44.1044,43.382,32.5826,13.636,2019-01-01,2019-12-31
+ZWE,False,False,Matabeleland South,ZW16,Matabeleland South,1,0.191,44.6535,42.7731,32.6295,12.6581,2010-01-01,2011-12-31
+ZWE,False,False,Matabeleland South,ZW16,Matabeleland South,1,0.1455,33.8431,42.988,34.3759,9.2185,2015-01-01,2015-12-31
+ZWE,False,False,Matabeleland South,ZW16,Matabeleland South,1,0.1136,27.6856,41.0255,30.5281,5.0104,2019-01-01,2019-12-31
+ZWE,False,False,Midlands,ZW17,Midlands,1,0.1866,42.4616,43.9565,26.1495,13.9387,2010-01-01,2011-12-31
+ZWE,False,False,Midlands,ZW17,Midlands,1,0.1526,35.5357,42.9448,31.2127,8.5033,2015-01-01,2015-12-31
+ZWE,False,False,Midlands,ZW17,Midlands,1,0.1301,30.3465,42.8563,24.9637,8.3081,2019-01-01,2019-12-31
